@@ -1,0 +1,271 @@
+/* ============================================================
+ * 明理 AI · 墨韵青瓷主题（月白底 + 水墨青 + 竹青 + 克制赭印）
+ * 变量名保留不变，仅换物理颜色以避免连锁修改。
+ *   --ml-vermilion  语义：主色 / 强调，现为«水墨青»
+ *   --ml-bronze     语义：装饰点缀，现为«灰金»
+ *   --ml-seal       新增：印章专用«克制赭红»
+ * ============================================================ */
+
+:root {
+  /* —— 基础色（月白） —— */
+  --ml-bg:            #EEF1ED; /* 月白背景，微带青调 */
+  --ml-card-bg:       #F8FAF7; /* 卡片月白 */
+  --ml-text:          #1B262C; /* 主文字 深墨青 */
+  --ml-text-sub:      #4F6566; /* 次文字 中墨青 */
+  --ml-text-faint:    #8AA0A0; /* 弱化文字 淡墨 */
+
+  /* —— 主色（水墨青 / 竹青） —— */
+  --ml-vermilion:     #5E8B7E; /* 水墨青（名义主色） */
+  --ml-vermilion-2:   #4E7D72; /* hover 深青 */
+  --ml-bronze:        #B58A3F; /* 灰金点缀 */
+  --ml-bronze-soft:   #D9CFAE; /* 淡灰金 */
+  --ml-ink:           #1F2A2D; /* 深墨青（侧栏底） */
+  --ml-ink-2:         #283538;
+
+  /* —— 印章专用赭红（仅作点睛） —— */
+  --ml-seal:          #9B3A2E;
+  --ml-seal-2:        #B14A3A;
+
+  /* —— 状态色 —— */
+  --ml-success:       #4F8A6F; /* 竹绿 */
+  --ml-warning:       #B58A3F; /* 灰金 */
+  --ml-error:         #9B3A2E; /* 赭红 */
+  --ml-pending:       #6F7A7C; /* 墨灰 */
+
+  /* —— 边框 / 阴影 —— */
+  --ml-border:        rgba(94, 139, 126, 0.25); /* 竹青描边 */
+  --ml-border-strong: rgba(94, 139, 126, 0.45);
+  --ml-divider:       rgba(31, 42, 45, 0.08);
+  --ml-shadow-card:   0 8px 24px rgba(31, 42, 45, 0.07);
+  --ml-shadow-soft:   0 2px 8px rgba(31, 42, 45, 0.04);
+
+  /* —— 行高 / 圆角 / 间距 —— */
+  --ml-radius-sm:     8px;
+  --ml-radius:        12px;
+  --ml-radius-lg:     16px;
+  --ml-radius-xl:     20px;
+
+  /* —— 字体 —— */
+  --ml-font-sans: -apple-system, BlinkMacSystemFont, 'PingFang SC',
+    'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --ml-font-serif: 'Songti SC', 'STSong', 'Noto Serif SC', 'SimSun', serif;
+
+  /* —— 图表配色 —— */
+  --ml-chart-1: #5E8B7E; /* 竹青 */
+  --ml-chart-2: #9B3A2E; /* 赭红 */
+  --ml-chart-3: #B58A3F; /* 灰金 */
+  --ml-chart-4: #4F6566; /* 中墨 */
+  --ml-chart-5: #2F4858; /* 深湖蓝 */
+}
+
+/* ============================================================
+ * 全局基础
+ * ============================================================ */
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--ml-bg);
+  color: var(--ml-text);
+  font-family: var(--ml-font-sans);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'tnum';
+}
+
+/* 月白纸纹理：极淡的青调噪点 + 水墨叠加（纯 CSS） */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(rgba(94, 139, 126, 0.07) 1px, transparent 1px),
+    radial-gradient(rgba(31, 42, 45, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px, 7px 7px;
+  background-position: 0 0, 12px 12px;
+  opacity: 0.55;
+}
+
+/* ============================================================
+ * Ant Design 覆盖
+ * ============================================================ */
+
+/* —— Layout —— */
+.ant-layout {
+  background: transparent !important;
+}
+.ant-layout-sider {
+  background: var(--ml-ink) !important;
+  border-right: 1px solid rgba(94, 139, 126, 0.18);
+}
+.ant-layout-header {
+  background: transparent !important;
+  padding: 0 !important;
+  height: auto !important;
+  line-height: normal !important;
+}
+
+/* —— Menu（深墨青侧栏） —— */
+.ml-side-menu.ant-menu {
+  background: transparent !important;
+  border-inline-end: none !important;
+  color: #D5E2DD;
+  font-family: var(--ml-font-sans);
+  padding: 8px 10px;
+}
+.ml-side-menu .ant-menu-item,
+.ml-side-menu .ant-menu-submenu-title {
+  color: #C7D6D2 !important;
+  border-radius: var(--ml-radius) !important;
+  margin: 4px 0 !important;
+  height: 42px !important;
+  line-height: 42px !important;
+  padding-inline: 14px !important;
+}
+.ml-side-menu .ant-menu-item:hover,
+.ml-side-menu .ant-menu-submenu-title:hover {
+  background: rgba(94, 139, 126, 0.18) !important;
+  color: #F2F8F5 !important;
+}
+.ml-side-menu .ant-menu-item-selected {
+  background: var(--ml-vermilion) !important;
+  color: #FFF !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.10);
+}
+.ml-side-menu .ant-menu-item-selected::after {
+  display: none !important;
+}
+.ml-side-menu .ant-menu-item .anticon,
+.ml-side-menu .ant-menu-item-selected .anticon {
+  font-size: 16px;
+}
+
+/* —— Card 宣纸卡片 —— */
+.ant-card {
+  background: var(--ml-card-bg) !important;
+  border: 1px solid var(--ml-border) !important;
+  border-radius: var(--ml-radius-lg) !important;
+  box-shadow: var(--ml-shadow-card) !important;
+}
+.ant-card-head {
+  border-bottom: 1px solid var(--ml-divider) !important;
+  min-height: 52px !important;
+}
+.ant-card-head-title {
+  font-family: var(--ml-font-serif);
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: var(--ml-text);
+}
+
+/* —— Button —— */
+.ant-btn-primary {
+  background: var(--ml-vermilion) !important;
+  border-color: var(--ml-vermilion) !important;
+  box-shadow: none !important;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: var(--ml-vermilion-2) !important;
+  border-color: var(--ml-vermilion-2) !important;
+}
+.ant-btn-default {
+  border-color: var(--ml-bronze) !important;
+  color: var(--ml-bronze) !important;
+  background: transparent !important;
+}
+.ant-btn-default:hover {
+  border-color: var(--ml-vermilion) !important;
+  color: var(--ml-vermilion) !important;
+  background: rgba(94, 139, 126, 0.08) !important;
+}
+
+/* —— Table —— */
+.ant-table {
+  background: transparent !important;
+  font-family: var(--ml-font-sans);
+}
+.ant-table-thead > tr > th {
+  background: rgba(94, 139, 126, 0.10) !important;
+  color: var(--ml-text) !important;
+  font-weight: 600 !important;
+  border-bottom: 1px solid var(--ml-border) !important;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid var(--ml-divider) !important;
+}
+.ant-table-tbody > tr:hover > td {
+  background: rgba(183, 207, 196, 0.30) !important;
+}
+
+/* —— Tag —— */
+.ant-tag {
+  border-radius: 999px !important;
+  padding: 0 10px !important;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+
+/* —— Input / Select —— */
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-select-selector,
+.ant-picker {
+  background: var(--ml-card-bg) !important;
+  border-color: var(--ml-border) !important;
+  border-radius: var(--ml-radius) !important;
+}
+.ant-input:hover,
+.ant-input-affix-wrapper:hover,
+.ant-select:hover .ant-select-selector,
+.ant-picker:hover {
+  border-color: var(--ml-bronze) !important;
+}
+.ant-input:focus,
+.ant-input-focused,
+.ant-input-affix-wrapper-focused,
+.ant-select-focused .ant-select-selector,
+.ant-picker-focused {
+  border-color: var(--ml-vermilion) !important;
+  box-shadow: 0 0 0 2px rgba(94, 139, 126, 0.18) !important;
+}
+
+/* —— Statistic —— */
+.ant-statistic-title {
+  color: var(--ml-text-sub) !important;
+  font-size: 13px;
+}
+.ant-statistic-content {
+  font-family: var(--ml-font-serif);
+  color: var(--ml-text) !important;
+}
+
+/* —— Tabs —— */
+.ant-tabs-tab {
+  font-family: var(--ml-font-serif);
+  font-size: 15px;
+  color: var(--ml-text-sub) !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--ml-vermilion) !important;
+}
+.ant-tabs-ink-bar {
+  background: var(--ml-vermilion) !important;
+}
+
+/* —— Divider —— */
+.ant-divider {
+  border-color: var(--ml-divider) !important;
+}
+
+/* —— Progress —— */
+.ant-progress-bg {
+  background: linear-gradient(90deg, var(--ml-vermilion), var(--ml-chart-5)) !important;
+}
+
+/* —— Empty —— */
+.ant-empty-description {
+  color: var(--ml-text-faint) !important;
+}

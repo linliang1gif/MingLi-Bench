@@ -31,3 +31,20 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Node / Vite frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# SQLite 本地数据（含真实命主信息，禁止提交）
+*.db
+*.sqlite
+*.sqlite3
+backend/storage/
+
+# Windsurf / IDE 工作目录
+.windsurf/

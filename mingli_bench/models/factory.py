@@ -190,7 +190,7 @@ class ModelFactory:
             'openai': ['gpt-4', 'gpt-4-turbo', 'gpt-3.5-turbo', 'o1-preview', 'o1-mini'],
             'anthropic': ['claude-3-opus', 'claude-3-sonnet', 'claude-3-haiku', 'claude-3-5-sonnet'],
             'google': ['gemini-pro', 'gemini-1.5-pro', 'gemini-1.5-flash'],
-            'deepseek': ['deepseek-chat', 'deepseek-coder'],
+            'deepseek': ['deepseek-chat', 'deepseek-coder', 'deepseek-v4-pro'],
             'doubao': ['doubao-pro', 'doubao-lite'],
             'openrouter': [
                 'openai/gpt-4', 'anthropic/claude-3-sonnet', 'google/gemini-2.0-flash',
