@@ -1,0 +1,4186 @@
+{
+  "generated_at": "2026-05-09 02:47:00",
+  "summary": {
+    "total": 165,
+    "passed": 165,
+    "failed": 0,
+    "pass_rate": 100.0,
+    "avg_score": 99.5,
+    "min_score": 92.2,
+    "max_score": 100.0,
+    "dimension_avg": {
+      "pillars": 100.0,
+      "day_master": 100.0,
+      "strength": 100.0,
+      "pattern": 98.1,
+      "useful_gods": 99.6
+    }
+  },
+  "results": [
+    {
+      "case_id": "case_001",
+      "title": "戊土生酉月 — 月令伤官，月令被卯酉冲",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_002",
+      "title": "辛金生午月 — 七杀当令身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_003",
+      "title": "癸水生子月 — 建禄格偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_004",
+      "title": "己土生卯月 — 七杀当令偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_005",
+      "title": "壬水生酉月 — 正印格中和盘",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_006",
+      "title": "壬水生辰月 — 七杀杂气偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_007",
+      "title": "癸水生寅月 — 正财格身弱（极弱接近从）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_008",
+      "title": "戊土生申月 — 正印格身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_009",
+      "title": "戊土生卯月 — 正官格偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_010",
+      "title": "辛金生子月 — 食神格身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_011",
+      "title": "己土生午月 — 偏印格偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_012",
+      "title": "辛金生卯月 — 偏财格偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_013",
+      "title": "庚金生酉月 — 月劫格偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_014",
+      "title": "壬水生寅月 — 食神格身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_015",
+      "title": "丁火生午月 — 建禄格身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_016",
+      "title": "癸水生酉月 — 偏印格身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_017",
+      "title": "丙火生亥月 — 七杀格偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_018",
+      "title": "己土生未月 — 偏印格身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_019",
+      "title": "壬水生申月 — 偏印格中和（不明显）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_020",
+      "title": "乙木生未月 — 疑似从弱样本",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从弱格) 但非 primary (伤官格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_021",
+      "title": "甲日主生戌月 — 偏财格，疑似从弱",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (化土格) 但非 primary (偏财格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_022",
+      "title": "乙日主生亥月 — 正印格，疑似从强",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从强格) 但非 primary (正印格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_023",
+      "title": "丙日主生丑月 — 伤官格，疑似从弱",
+      "total_score": 92.2,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 75
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从弱格) 但非 primary (伤官格)",
+        "忌避: 输出 ['木', '火'] 与 accepted ['水'] 无交集，给部分分 50"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_024",
+      "title": "甲日主生卯月 — 月劫格，疑似从强",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从强格) 但非 primary (月劫格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_025",
+      "title": "庚日主生辰月 — 正财格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_026",
+      "title": "丁日主生申月 — 正官格，疑似从弱",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从弱格) 但非 primary (正官格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_027",
+      "title": "戊日主生戌月 — 建禄格，疑似从强",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从强格) 但非 primary (建禄格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_028",
+      "title": "乙日主生未月 — 偏财格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_029",
+      "title": "丁日主生巳月 — 月劫格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_030",
+      "title": "甲日主生子月 — 正印格，疑似从强",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从强格) 但非 primary (正印格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_031",
+      "title": "丙日主生寅月 — 食神格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_032",
+      "title": "庚日主生亥月 — 偏财格，疑似从弱",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从弱格) 但非 primary (偏财格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_033",
+      "title": "戊日主生丑月 — 正财格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_034",
+      "title": "辛日主生巳月 — 正官格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_035",
+      "title": "己日主生辰月 — 月劫格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_036",
+      "title": "乙日主生戌月 — 正财格，疑似从弱",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从弱格) 但非 primary (正财格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_037",
+      "title": "丁日主生未月 — 食神格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_038",
+      "title": "甲日主生亥月 — 偏印格，疑似从强",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从强格) 但非 primary (偏印格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_039",
+      "title": "丙日主生丑月 — 伤官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_040",
+      "title": "庚日主生午月 — 正官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_041",
+      "title": "癸日主生子月 — 建禄格，疑似从强",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从强格) 但非 primary (建禄格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_042",
+      "title": "壬日主生辰月 — 七杀格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_043",
+      "title": "丙日主生寅月 — 偏印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_044",
+      "title": "乙日主生戌月 — 七杀格，疑似从弱",
+      "total_score": 92.2,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 75
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从弱格) 但非 primary (七杀格)",
+        "忌避: 输出 ['木', '水'] 与 accepted ['土'] 无交集，给部分分 50"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_045",
+      "title": "戊日主生未月 — 正印格，疑似从强",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从强格) 但非 primary (正印格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_046",
+      "title": "己日主生丑月 — 建禄格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_047",
+      "title": "庚日主生巳月 — 七杀格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_048",
+      "title": "辛日主生申月 — 正印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_049",
+      "title": "丁日主生卯月 — 偏印格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_050",
+      "title": "甲日主生巳月 — 食神格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_051",
+      "title": "癸日主生寅月 — 正财格，疑似从弱",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从弱格) 但非 primary (正财格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_052",
+      "title": "戊日主生午月 — 正印格，疑似从强",
+      "total_score": 96.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 80,
+        "useful_gods": 100
+      },
+      "primary_hit": false,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "accepted"
+      },
+      "dispute_reason": "实际结论命中 accepted 但非 primary，可能反映流派分歧",
+      "mismatches": [],
+      "warnings": [
+        "格局: 命中 accepted (从强格) 但非 primary (正印格)"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_053",
+      "title": "庚日主生子月 — 伤官格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_054",
+      "title": "丙日主生戌月 — 食神格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_055",
+      "title": "乙日主生申月 — 正官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_056",
+      "title": "辛日主生辰月 — 正印格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_057",
+      "title": "丁日主生丑月 — 七杀格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_058",
+      "title": "壬日主生酉月 — 正印格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_059",
+      "title": "己日主生亥月 — 正财格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_060",
+      "title": "甲日主生未月 — 伤官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_061",
+      "title": "辛日主生子月 — 食神格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_062",
+      "title": "丙日主生午月 — 月劫格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_063",
+      "title": "戊日主生申月 — 偏财格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_064",
+      "title": "己日主生卯月 — 七杀格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_065",
+      "title": "乙日主生未月 — 偏财格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_066",
+      "title": "癸日主生寅月 — 伤官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_067",
+      "title": "丁日主生丑月 — 七杀格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_068",
+      "title": "庚日主生酉月 — 月劫格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_069",
+      "title": "甲日主生辰月 — 偏财格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_070",
+      "title": "壬日主生戌月 — 正印格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_071",
+      "title": "戊日主生巳月 — 偏印格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_072",
+      "title": "乙日主生亥月 — 正印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_073",
+      "title": "辛日主生子月 — 食神格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_074",
+      "title": "己日主生卯月 — 七杀格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_075",
+      "title": "癸日主生酉月 — 偏印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_076",
+      "title": "丙日主生酉月 — 正财格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_077",
+      "title": "甲日主生卯月 — 月劫格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_078",
+      "title": "丁日主生辰月 — 偏印格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_079",
+      "title": "壬日主生未月 — 正官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_080",
+      "title": "庚日主生子月 — 伤官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_081",
+      "title": "戊日主生亥月 — 偏财格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_082",
+      "title": "辛日主生戌月 — 正印格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_083",
+      "title": "乙日主生卯月 — 建禄格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_084",
+      "title": "己日主生寅月 — 正官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_085",
+      "title": "壬日主生子月 — 月劫格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_086",
+      "title": "癸日主生丑月 — 七杀格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_087",
+      "title": "丁日主生子月 — 七杀格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_088",
+      "title": "甲日主生戌月 — 伤官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_089",
+      "title": "丙日主生寅月 — 偏印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_090",
+      "title": "庚日主生酉月 — 月劫格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_091",
+      "title": "戊日主生巳月 — 偏印格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_092",
+      "title": "辛日主生寅月 — 正财格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_093",
+      "title": "己日主生午月 — 偏印格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_094",
+      "title": "乙日主生酉月 — 七杀格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_095",
+      "title": "丁日主生未月 — 食神格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_096",
+      "title": "甲日主生申月 — 七杀格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_097",
+      "title": "癸日主生子月 — 建禄格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_098",
+      "title": "壬日主生酉月 — 正印格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_099",
+      "title": "庚日主生寅月 — 偏财格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_100",
+      "title": "丙日主生卯月 — 正印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_101",
+      "title": "戊日主生酉月 — 伤官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_102",
+      "title": "己日主生巳月 — 正印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_103",
+      "title": "甲日主生卯月 — 月劫格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_104",
+      "title": "壬日主生卯月 — 伤官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_105",
+      "title": "戊日主生子月 — 正财格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_106",
+      "title": "癸水极旺从强格 — 壬子壬子癸酉癸亥（经典从强）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_107",
+      "title": "乙木身强偏印格 — 壬申壬子乙丑丁亥（冬木旺水）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_108",
+      "title": "癸水身强月劫格 — 癸酉癸亥癸巳乙卯（建禄/月劫身强）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_109",
+      "title": "辛金偏强冬月食神 — 癸酉乙丑辛丑庚寅（冬金调候重火）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_110",
+      "title": "己土身强正印格 — 乙丑辛巳己未戊辰（夏土厚重）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_111",
+      "title": "戊土偏弱七杀格 — 甲子丙寅戊戌乙卯（春木克土）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_112",
+      "title": "戊土偏强正财格 — 丙寅庚子戊戌丁巳（冬土得火生）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_113",
+      "title": "辛金中和食神格 — 丁卯甲辰辛丑癸巳（春金弱而有根）",
+      "total_score": 98.5,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 90
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [
+        "喜用部分匹配: 命中 ['木', '水'] / 期望 ['土', '木', '水', '金']"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_114",
+      "title": "丙火中和夏月伤官 — 庚午癸未丙戌甲午（夏火宜水调候）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_115",
+      "title": "甲木偏强偏财格 — 丙寅壬辰甲申壬申（春木旺有金制）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_116",
+      "title": "甲木身弱七杀格 — 辛未丙申甲寅辛未（秋木被金克）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_117",
+      "title": "癸水偏弱偏印格 — 庚午乙酉癸未丙辰（秋水金旺但泄于木）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_118",
+      "title": "己土身强偏印格 — 己巳庚午己酉丁卯（夏土火旺）",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_119",
+      "title": "壬水中和正印格 — 乙丑乙酉壬子甲辰（秋水得金生）",
+      "total_score": 99.2,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 95
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [
+        "喜用部分匹配: 命中 ['土', '木', '火'] / 期望 ['土', '木', '火', '金']"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_120",
+      "title": "丙火中和伤官格 — 戊辰己未丙寅乙未（夏火土旺泄秀）",
+      "total_score": 99.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 93
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [
+        "喜用部分匹配: 命中 ['土', '金'] / 期望 ['土', '水', '金']"
+      ],
+      "notes": []
+    },
+    {
+      "case_id": "case_121",
+      "title": "丁日主生寅月 — 正印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_122",
+      "title": "癸日主生申月 — 正印格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_123",
+      "title": "乙日主生亥月 — 正印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_124",
+      "title": "己日主生巳月 — 正印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_125",
+      "title": "丁日主生卯月 — 偏印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_126",
+      "title": "辛日主生酉月 — 建禄格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_127",
+      "title": "乙日主生子月 — 偏印格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_128",
+      "title": "丁日主生午月 — 建禄格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_129",
+      "title": "庚日主生辰月 — 偏印格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_130",
+      "title": "戊日主生未月 — 正官格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_131",
+      "title": "癸日主生戌月 — 正官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_132",
+      "title": "丙日主生子月 — 正官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_133",
+      "title": "甲日主生卯月 — 月劫格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_134",
+      "title": "庚日主生午月 — 正官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_135",
+      "title": "庚日主生酉月 — 月劫格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_136",
+      "title": "丙日主生子月 — 正官格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_137",
+      "title": "辛日主生寅月 — 正财格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_138",
+      "title": "癸日主生未月 — 从弱格，疑似从弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_139",
+      "title": "乙日主生戌月 — 正财格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_140",
+      "title": "庚日主生丑月 — 伤官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_141",
+      "title": "壬日主生辰月 — 七杀格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_142",
+      "title": "丁日主生申月 — 正官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_143",
+      "title": "辛日主生亥月 — 伤官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_144",
+      "title": "壬日主生丑月 — 正官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_145",
+      "title": "壬日主生卯月 — 伤官格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_146",
+      "title": "庚日主生申月 — 建禄格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_147",
+      "title": "戊日主生戌月 — 正印格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_148",
+      "title": "丁日主生子月 — 从弱格，疑似从弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_149",
+      "title": "戊日主生辰月 — 建禄格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_150",
+      "title": "己日主生未月 — 七杀格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_151",
+      "title": "丙日主生酉月 — 正财格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_152",
+      "title": "丙日主生丑月 — 伤官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_153",
+      "title": "丁日主生卯月 — 偏印格，偏强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_154",
+      "title": "壬日主生午月 — 正财格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_155",
+      "title": "辛日主生酉月 — 建禄格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_156",
+      "title": "丁日主生子月 — 七杀格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_157",
+      "title": "己日主生寅月 — 正官格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_158",
+      "title": "丁日主生未月 — 食神格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_159",
+      "title": "癸日主生戌月 — 正官格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_160",
+      "title": "壬日主生亥月 — 建禄格，身强",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_161",
+      "title": "戊日主生丑月 — 正财格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_162",
+      "title": "戊日主生申月 — 食神格，偏弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_163",
+      "title": "戊日主生子月 — 正财格，中和",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_164",
+      "title": "丙日主生辰月 — 正印格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    },
+    {
+      "case_id": "case_165",
+      "title": "乙日主生申月 — 正官格，身弱",
+      "total_score": 100.0,
+      "passed": true,
+      "fatal": false,
+      "dimension_scores": {
+        "pillars": 100,
+        "day_master": 100,
+        "strength": 100,
+        "pattern": 100,
+        "useful_gods": 100
+      },
+      "primary_hit": true,
+      "accepted_hit": true,
+      "rejected_hit": false,
+      "hit_breakdown": {
+        "strength": "primary",
+        "pattern": "primary"
+      },
+      "dispute_reason": "",
+      "mismatches": [],
+      "warnings": [],
+      "notes": []
+    }
+  ]
+}

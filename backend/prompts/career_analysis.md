@@ -9,6 +9,15 @@
 - 五行：{wuxing_summary}
 - 关注方向：{focus_topics}
 
+## 规则引擎分析结果
+- 日主：{day_master}（{strength_level}）
+- 格局：{pattern}
+- 喜用五行：{useful_elements}
+- 忌神五行：{avoid_elements}
+- 调候：{climate_note}
+
+**约束**：事业方向建议必须基于喜用五行对应的行业属性。不得编造命盘中不存在的五行关系。
+
 ## 用户当前问题
 {question}
 

@@ -4,10 +4,16 @@ import {
 } from 'antd';
 import { PlusOutlined, SendOutlined, ReloadOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
 import api from '../services/api';
+
 import PaperCard from '../components/PaperCard';
 import StatusTag from '../components/StatusTag';
 import MarkdownView from '../components/MarkdownView';
+
+dayjs.extend(utc);
+const fmtLocal = (ts) => ts ? dayjs.utc(ts).local().format('YYYY-MM-DD HH:mm') : '';
 
 const QUICK_QUESTIONS = [
   '今年财运怎么样？',
@@ -167,7 +173,7 @@ export default function ChatHome() {
       style={{
         // 让 ChatHome 占满 ml-content，抵消 ml-content 的 padding
         margin: '-24px -28px -40px',
-        height: 'calc(100vh - 56px)',
+        height: 'calc(100% + 64px)',
         display: 'grid',
         gridTemplateColumns: '260px 1fr 360px',
         background: 'var(--ml-bg)',
@@ -218,7 +224,7 @@ export default function ChatHome() {
                 key={s.id}
                 active={s.id === activeSessionId}
                 title={s.title || '未命名对话'}
-                subtitle={s.updated_at ? s.updated_at.replace('T', ' ').slice(0, 16) : ''}
+                subtitle={fmtLocal(s.updated_at)}
                 onClick={() => setActiveSessionId(s.id)}
               />
             ))}
@@ -234,7 +240,7 @@ export default function ChatHome() {
               <SidebarItem
                 key={r.id}
                 title={r.title}
-                subtitle={r.created_at ? r.created_at.replace('T', ' ').slice(0, 16) : ''}
+                subtitle={fmtLocal(r.created_at)}
                 onClick={() => navigate(`/reports/${r.id}`)}
               />
             ))}
@@ -583,7 +589,7 @@ function ReportsTab({ reports, onClick }) {
         >
           <div style={{ fontFamily: 'var(--ml-font-serif)', color: 'var(--ml-text)' }}>{r.title}</div>
           <div style={{ fontSize: 11, color: 'var(--ml-text-faint)', marginTop: 2 }}>
-            {r.created_at ? r.created_at.replace('T', ' ').slice(0, 16) : ''}
+            {fmtLocal(r.created_at)}
           </div>
         </div>
       ))}

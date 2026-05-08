@@ -9,9 +9,20 @@
 - 出生地：{birth_place}
 - 重点关注方向：{focus_topics}
 
-## 命盘信息（简化算法演示，仅供参考）
+## 命盘信息
 - 八字四柱：{bazi}
 - 五行分布：{wuxing_summary}
+
+## 规则引擎分析结果（基于旷衰法 + 格局法 + 调候法）
+- 日主：{day_master}
+- 旷衰：{strength_level}（得分 {strength_score}）
+- 格局：{pattern}（信心 {pattern_confidence}）
+- 喜用五行：{useful_elements}
+- 忌神五行：{avoid_elements}
+- 调候建议：{climate_note}
+- 综合信心：{overall_confidence}
+
+**重要约束**：以上规则引擎结果作为分析依据，你的结论必须与喜用神/忌神判断一致。不得编造命盘中不存在的五行关系或格局。
 
 ## 用户当前问题
 {question}

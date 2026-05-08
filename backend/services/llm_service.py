@@ -42,7 +42,7 @@ class LLMSelection:
 
 # 主对话默认模型能力优先，小任务则走轻量模型节省费用 / 提高响应速度。
 _LIGHT_MODELS = {
-    "deepseek":   "deepseek-chat",
+    "deepseek":   "deepseek-v4-flash",
     "openrouter": "deepseek/deepseek-chat",
     "openai":     "gpt-4o-mini",
     "anthropic":  "claude-3-5-haiku",
@@ -117,7 +117,7 @@ def chat_complete(
         from openai import OpenAI
 
         api_key = (load_config().get(sel.provider) or {}).get("api_key")
-        client = OpenAI(api_key=api_key, base_url=sel.base_url)
+        client = OpenAI(api_key=api_key, base_url=sel.base_url, timeout=240, max_retries=2)
         kwargs: Dict[str, Any] = {
             "model": sel.model,
             "messages": full_messages,
@@ -178,7 +178,7 @@ def chat_complete_stream(
         from openai import OpenAI
 
         api_key = (load_config().get(sel.provider) or {}).get("api_key")
-        client = OpenAI(api_key=api_key, base_url=sel.base_url)
+        client = OpenAI(api_key=api_key, base_url=sel.base_url, timeout=240, max_retries=2)
         stream_kwargs: Dict[str, Any] = {
             "model": sel.model,
             "messages": full_messages,

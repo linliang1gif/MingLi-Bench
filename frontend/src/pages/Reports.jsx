@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { List, Empty, Spin, Button, Space, Select, Modal } from 'antd';
 import { useNavigate, useParams } from 'react-router-dom';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
 import api from '../services/api';
+
 import PageBanner from '../components/PageBanner';
 import PaperCard from '../components/PaperCard';
 import MarkdownView from '../components/MarkdownView';
+
+dayjs.extend(utc);
+const fmtLocal = (ts) => ts ? dayjs.utc(ts).local().format('YYYY-MM-DD HH:mm') : '';
 
 const TYPES = [
   { value: 'general', label: '综合' },
@@ -93,7 +99,7 @@ export default function Reports() {
                   }
                   description={
                     <span style={{ color: 'var(--ml-text-faint)', fontSize: 12 }}>
-                      {r.created_at ? r.created_at.replace('T', ' ').slice(0, 16) : ''} · {TYPES.find((t)=>t.value===r.report_type)?.label || r.report_type}
+                      {fmtLocal(r.created_at)} · {TYPES.find((t)=>t.value===r.report_type)?.label || r.report_type}
                     </span>
                   }
                 />

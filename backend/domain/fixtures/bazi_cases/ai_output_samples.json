@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "case_001",
+    "label": "clean_sample",
+    "expected_outcome": "pass",
+    "text": "您的命盘呈现身弱格局倾向。年柱己卯、月柱癸酉、日柱戊寅、时柱癸亥。月令伤官当令，年支卯酉相冲是命盘的关键动力点。当前正在庚午大运中，火土同来对身弱日主有帮扶之象。本命年兔年是反观自身的契机，建议保持稳健节奏。"
+  },
+  {
+    "case_id": "case_001",
+    "label": "violation_absolute",
+    "expected_outcome": "fail",
+    "text": "您的命盘必定发财，注定一帆风顺。庚午大运里一定会成功，是注定的命运安排。"
+  },
+  {
+    "case_id": "case_001",
+    "label": "violation_wrong_dayun",
+    "expected_outcome": "fail",
+    "text": "您当前正行甲子大运，对事业有助。同时甲午大运也即将开始。"
+  },
+  {
+    "case_id": "case_001",
+    "label": "violation_wrong_pillar",
+    "expected_outcome": "fail",
+    "text": "您的年柱甲子代表早年家境，月柱癸酉、日柱戊寅、时柱癸亥构成完整命盘。"
+  },
+  {
+    "case_id": "case_001",
+    "label": "violation_medical",
+    "expected_outcome": "fail",
+    "text": "建议购买比特币改善财运。打官司一定胜诉。"
+  }
+]

@@ -100,6 +100,14 @@ body::before {
   background: var(--ml-ink) !important;
   border-right: 1px solid rgba(94, 139, 126, 0.18);
 }
+.ant-layout-sider-trigger {
+  background: var(--ml-ink) !important;
+  border-top: 1px solid rgba(94, 139, 126, 0.18);
+}
+.ant-layout-sider-zero-width-trigger {
+  background: var(--ml-ink-2) !important;
+  top: 12px;
+}
 .ant-layout-header {
   background: transparent !important;
   padding: 0 !important;

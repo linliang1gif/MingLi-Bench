@@ -35,6 +35,50 @@ BRANCH_WUXING = {
 }
 WUXING_FIVE = ("木", "火", "土", "金", "水")
 
+# —— 十天干
+TIAN_GAN = ("甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸")
+
+# —— 十二地支 → 生肖
+BRANCH_SHENGXIAO = {
+    "子": "鼠", "丑": "牛", "寅": "虎", "卯": "兔",
+    "辰": "龙", "巳": "蛇", "午": "马", "未": "羊",
+    "申": "猴", "酉": "鸡", "戌": "狗", "亥": "猪",
+}
+
+# —— 五行生克关系（我生 / 生我 / 我克 / 克我）
+_WUXING_SHENG = {"木": "火", "火": "土", "土": "金", "金": "水", "水": "木"}
+_WUXING_KE   = {"木": "土", "火": "金", "土": "水", "金": "木", "水": "火"}
+_WUXING_SHENG_WO = {v: k for k, v in _WUXING_SHENG.items()}  # 生我
+_WUXING_KE_WO    = {v: k for k, v in _WUXING_KE.items()}     # 克我
+
+# —— 天干阴阳
+_GAN_POLARITY = {g: (i % 2 == 0) for i, g in enumerate(TIAN_GAN)}  # True=阳, False=阴
+
+
+def build_shishen_table(day_gan: str) -> Dict[str, str]:
+    """根据日主天干，生成完整的十神速查表：{天干: 十神名}。"""
+    my_wx = STEM_WUXING[day_gan]
+    my_yang = _GAN_POLARITY[day_gan]
+    table: Dict[str, str] = {}
+    for g in TIAN_GAN:
+        if g == day_gan:
+            table[g] = "比肩(日主)"
+            continue
+        g_wx = STEM_WUXING[g]
+        g_yang = _GAN_POLARITY[g]
+        same_polarity = (g_yang == my_yang)
+        if g_wx == my_wx:
+            table[g] = "比肩" if same_polarity else "劫财"
+        elif g_wx == _WUXING_SHENG[my_wx]:      # 我生
+            table[g] = "食神" if same_polarity else "伤官"
+        elif g_wx == _WUXING_KE[my_wx]:          # 我克
+            table[g] = "偏财" if same_polarity else "正财"
+        elif g_wx == _WUXING_KE_WO[my_wx]:       # 克我
+            table[g] = "七杀" if same_polarity else "正官"
+        elif g_wx == _WUXING_SHENG_WO[my_wx]:    # 生我
+            table[g] = "偏印" if same_polarity else "正印"
+    return table
+
 
 # ------------------------- 工具 -------------------------
 
@@ -171,6 +215,14 @@ def _enrich_chart(ec, gender: Optional[str], today: Optional[date] = None) -> Di
     except Exception:
         liunian_gz = ""
 
+    # —— 生肖
+    year_branch = ec.getYear()[1] if len(ec.getYear()) >= 2 else ""
+    shengxiao = BRANCH_SHENGXIAO.get(year_branch, "")
+
+    # —— 日主十神速查表（供 prompt 使用，杜绝 AI 自行推算出错）
+    day_gan = ec.getDayGan() or ""
+    shishen_ref = build_shishen_table(day_gan) if day_gan else {}
+
     return {
         "shishen":             shishen,
         "hidden_gan":          hidden,
@@ -181,6 +233,8 @@ def _enrich_chart(ec, gender: Optional[str], today: Optional[date] = None) -> Di
         "dayun":               dayun_list,
         "current_dayun_index": current_idx,
         "liunian":             {"year": cur_year, "ganzhi": liunian_gz},
+        "shengxiao":           shengxiao,
+        "shishen_ref":         shishen_ref,
     }
 
 
@@ -299,4 +353,13 @@ def compute_chart(
         "input": info,
     }
     result.update(enriched)
+
+    # —— 规则引擎（旺衰 / 格局 / 喜用神 —— 纯规则计算，不依赖 AI）
+    try:
+        from ..domain.bazi_rules import analyze_chart as _rule_analyze
+        rule_result = _rule_analyze(result)
+        result["rule_analysis"] = rule_result
+    except Exception as e:
+        result["rule_analysis"] = {"_error": f"{type(e).__name__}: {e}"}
+
     return result

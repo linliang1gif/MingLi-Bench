@@ -8,6 +8,7 @@ import ChartAnalysis from './pages/ChartAnalysis';
 import Reports from './pages/Reports';
 import History from './pages/History';
 import Settings from './pages/Settings';
+import CaseReview from './pages/CaseReview';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="reports/:id"     element={<Reports />} />
         <Route path="history"         element={<History />} />
         <Route path="settings"        element={<Settings />} />
+        <Route path="case-review"    element={<CaseReview />} />
         <Route path="*"               element={<Navigate to="/" replace />} />
       </Route>
     </Routes>

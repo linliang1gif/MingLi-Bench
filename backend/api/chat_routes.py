@@ -7,7 +7,7 @@ from typing import Any, Dict, List, Optional
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from ..db.models import Chart, ChatMessage, ChatSession, Subject
@@ -83,7 +83,7 @@ def chat(payload: ChatRequest, db: Session = Depends(get_db)) -> Dict[str, Any]:
         if history:
             history[0] = {"role": "user", "content": ctx_block + "\n" + history[0]["content"]}
 
-    llm = llm_service.chat_complete(messages=history, max_tokens=2048, temperature=0.5)
+    llm = llm_service.chat_complete(messages=history, max_tokens=4096, temperature=0.5)
 
     if llm["ok"]:
         reply = llm["content"]
@@ -246,7 +246,7 @@ def chat_stream(payload: ChatRequest):
         had_error: Optional[str] = None
         meta_provider, meta_model = None, None
         for piece in llm_service.chat_complete_stream(messages=llm_history,
-                                                     max_tokens=2048,
+                                                     max_tokens=4096,
                                                      temperature=0.5):
             ev = piece.get("event")
             if ev == "meta":
@@ -276,7 +276,11 @@ def chat_stream(payload: ChatRequest):
             db2 = SessionLocal()
             try:
                 asst = ChatMessage(session_id=session_id, role="assistant", content=fallback)
-                db2.add(asst); db2.commit(); db2.refresh(asst)
+                db2.add(asst)
+                sess_obj = db2.get(ChatSession, session_id)
+                if sess_obj:
+                    sess_obj.updated_at = func.now()
+                db2.commit(); db2.refresh(asst)
                 yield _sse("done", {"message_id": asst.id, "ok": False, "title": current_title})
             finally:
                 db2.close()
@@ -292,7 +296,13 @@ def chat_stream(payload: ChatRequest):
         db2 = SessionLocal()
         try:
             asst = ChatMessage(session_id=session_id, role="assistant", content=final_text)
-            db2.add(asst); db2.commit(); db2.refresh(asst)
+            db2.add(asst)
+            # 触发 session.updated_at 以确保最新对话排在前面
+            sess_obj = db2.get(ChatSession, session_id)
+            if sess_obj:
+                sess_obj.updated_at = func.now()
+            db2.commit()
+            db2.refresh(asst)
             yield _sse("done", {
                 "message_id": asst.id,
                 "ok": True,

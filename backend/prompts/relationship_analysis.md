@@ -9,6 +9,15 @@
 - 五行：{wuxing_summary}
 - 关注方向：{focus_topics}
 
+## 规则引擎分析结果
+- 日主：{day_master}（{strength_level}）
+- 格局：{pattern}
+- 喜用五行：{useful_elements}
+- 忌神五行：{avoid_elements}
+- 调候：{climate_note}
+
+**约束**：感情分析以日主旷衰和喜忌为基础。官星/财星为喜用时感情平顺，为忌神时需经营。不得编造。
+
 ## 用户当前问题
 {question}
 

@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Empty, Spin, Tag } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
 import api from '../services/api';
+
 import PageBanner from '../components/PageBanner';
 import PaperCard from '../components/PaperCard';
+
+dayjs.extend(utc);
+const fmtLocal = (ts) => ts ? dayjs.utc(ts).local().format('YYYY-MM-DD HH:mm') : '';
 
 export default function History() {
   const nav = useNavigate();
@@ -52,7 +58,7 @@ export default function History() {
                     <span style={{ fontFamily: 'var(--ml-font-serif)', color: 'var(--ml-text)' }}>{it.title}</span>
                   </div>
                   <span style={{ color: 'var(--ml-text-faint)', fontSize: 12 }}>
-                    {it.timestamp ? it.timestamp.replace('T', ' ').slice(0, 16) : ''}
+                    {fmtLocal(it.timestamp)}
                   </span>
                 </div>
               ))}

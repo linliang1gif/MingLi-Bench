@@ -117,3 +117,27 @@ class Report(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
 
     subject: Mapped["Subject"] = relationship(back_populates="reports")
+
+
+class CaseFeedback(Base, TimestampMixin):
+    """命理师/用户对标准案例的反馈校正。
+
+    用于打破"规则引擎自标注自评估"的闭环，引入外部专家意见。
+    """
+
+    __tablename__ = "case_feedbacks"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    case_id: Mapped[str] = mapped_column(String(32), nullable=False, index=True)
+    reviewer: Mapped[str] = mapped_column(String(64), nullable=False)          # 审核人姓名/标识
+    reviewer_role: Mapped[str] = mapped_column(String(32), default="user")     # user / expert / master
+    # 审核意见
+    strength_agree: Mapped[Optional[str]] = mapped_column(String(8))           # agree / disagree / unsure
+    strength_suggestion: Mapped[Optional[str]] = mapped_column(String(16))     # 建议的旺衰级别
+    pattern_agree: Mapped[Optional[str]] = mapped_column(String(8))            # agree / disagree / unsure
+    pattern_suggestion: Mapped[Optional[str]] = mapped_column(String(32))      # 建议的格局名
+    useful_gods_agree: Mapped[Optional[str]] = mapped_column(String(8))        # agree / disagree / unsure
+    useful_gods_note: Mapped[Optional[str]] = mapped_column(Text)              # 喜用神修正说明
+    overall_score: Mapped[Optional[int]] = mapped_column(Integer)              # 整体评分 1-5
+    comment: Mapped[Optional[str]] = mapped_column(Text)                       # 自由评论
+    status: Mapped[str] = mapped_column(String(16), default="pending")         # pending / accepted / rejected

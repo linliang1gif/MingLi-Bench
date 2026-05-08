@@ -37,7 +37,9 @@ a:hover {
   position: relative;
   z-index: 1;
   padding: 24px 28px 40px;
-  min-height: calc(100vh - 0px);
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
 }
 
 /* 卡片网格 */

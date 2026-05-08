@@ -40,8 +40,8 @@ class Settings:
     )
     default_models: dict = field(
         default_factory=lambda: {
-            "deepseek": "deepseek-reasoner",
-            "openrouter": "deepseek/deepseek-r1",
+            "deepseek": "deepseek-v4-pro",
+            "openrouter": "deepseek/deepseek-chat-v3-0324",
             "openai": "gpt-4o-mini",
             "anthropic": "claude-3-5-sonnet",
             "google": "gemini-1.5-pro",

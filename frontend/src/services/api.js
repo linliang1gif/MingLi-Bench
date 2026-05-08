@@ -167,6 +167,14 @@ export const api = {
   // —— 历史
   history: (subjectId) =>
     request('/api/history', { params: subjectId ? { subject_id: subjectId } : undefined }),
+
+  // —— 案例反馈
+  listCases: (params) => request('/api/cases', { params }),
+  getCaseDetail: (caseId) => request(`/api/cases/${caseId}`),
+  submitFeedback: (caseId, body) =>
+    request(`/api/cases/${caseId}/feedback`, { method: 'POST', body }),
+  listFeedbacks: (params) => request('/api/feedbacks', { params }),
+  feedbackSummary: () => request('/api/feedbacks/summary'),
 };
 
 export default api;

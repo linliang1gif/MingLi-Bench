@@ -55,6 +55,18 @@ def _load_subject_chart(db: Session, subject_id: int) -> Optional[Dict[str, Any]
     }
 
 
+def _compute_enriched_chart(subject: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """和对话场景一样，每次现算完整命盘（含十神 / 大运 / 流年）。"""
+    bazi = chart_service.compute_chart(
+        birth_date=subject.get("birth_date"),
+        birth_time=subject.get("birth_time"),
+        calendar_type=subject.get("calendar_type") or "solar",
+        longitude=subject.get("longitude"),
+        gender=subject.get("gender"),
+    )
+    return bazi if bazi.get("available") else None
+
+
 def generate_report(
     db: Session, *, subject_id: int, report_type: str = "general", question: Optional[str] = None
 ) -> Dict[str, Any]:
@@ -63,17 +75,20 @@ def generate_report(
         raise ValueError(f"subject {subject_id} not found")
 
     template_name = REPORT_TYPE_TO_TEMPLATE.get(report_type, "general_analysis")
-    chart = _load_subject_chart(db, subject_id) or chart_service.compute_chart(
-        birth_date=subject.get("birth_date"), birth_time=subject.get("birth_time")
-    )
+    chart = _compute_enriched_chart(subject) or _load_subject_chart(db, subject_id)
 
     ctx = prompt_service.build_subject_context(subject, chart if isinstance(chart, dict) else None)
     ctx["question"] = question or "请生成一份较完整的综合命理分析报告。"
-    user_prompt = prompt_service.render_user_prompt(template_name, ctx)
+
+    subject_block = prompt_service.render_subject_block(ctx)
+    user_prompt = subject_block + "\n" + prompt_service.render_user_prompt(template_name, ctx)
 
     llm = llm_service.chat_complete(
-        messages=[{"role": "user", "content": user_prompt}],
-        max_tokens=2048,
+        messages=[
+            {"role": "system", "content": prompt_service.get_system_prompt()},
+            {"role": "user", "content": user_prompt},
+        ],
+        max_tokens=4096,
         temperature=0.5,
     )
 

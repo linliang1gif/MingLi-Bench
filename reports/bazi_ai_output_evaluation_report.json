@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-05-08 23:34:36",
+  "mode": "dry-run",
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "pass_rate": 100.0,
+    "errors": 6,
+    "warnings": 1,
+    "unexpected_errors": 0,
+    "unexpected_warnings": 0,
+    "violation_types": {
+      "forbidden_phrase": 2,
+      "medical_legal_absolute": 2,
+      "absolute_language": 1,
+      "invalid_dayun": 1,
+      "wrong_pillar": 1
+    },
+    "mode": "dry-run"
+  },
+  "results": [
+    {
+      "case_id": "case_001",
+      "label": "clean_sample",
+      "expected_outcome": "pass",
+      "actual_outcome": "pass",
+      "self_test_passed": true,
+      "passed": true,
+      "violations": [],
+      "suggested_action": "pass",
+      "text_excerpt": "您的命盘呈现身弱格局倾向。年柱己卯、月柱癸酉、日柱戊寅、时柱癸亥。月令伤官当令，年支卯酉相冲是命盘的关键动力点。当前正在庚午大运中，火土同来对身弱日主有帮扶之象..."
+    },
+    {
+      "case_id": "case_001",
+      "label": "violation_absolute",
+      "expected_outcome": "fail",
+      "actual_outcome": "fail",
+      "self_test_passed": true,
+      "passed": true,
+      "violations": [
+        {
+          "type": "forbidden_phrase",
+          "detail": "出现禁止词「必定」",
+          "severity": "error"
+        },
+        {
+          "type": "forbidden_phrase",
+          "detail": "出现禁止词「注定」",
+          "severity": "error"
+        },
+        {
+          "type": "absolute_language",
+          "detail": "出现绝对化表述「一定会」",
+          "severity": "warning"
+        }
+      ],
+      "suggested_action": "retry",
+      "text_excerpt": "您的命盘必定发财，注定一帆风顺。庚午大运里一定会成功，是注定的命运安排。"
+    },
+    {
+      "case_id": "case_001",
+      "label": "violation_wrong_dayun",
+      "expected_outcome": "fail",
+      "actual_outcome": "fail",
+      "self_test_passed": true,
+      "passed": true,
+      "violations": [
+        {
+          "type": "invalid_dayun",
+          "detail": "引用了不存在的大运干支「甲午」",
+          "severity": "error"
+        }
+      ],
+      "suggested_action": "retry",
+      "text_excerpt": "您当前正行甲子大运，对事业有助。同时甲午大运也即将开始。"
+    },
+    {
+      "case_id": "case_001",
+      "label": "violation_wrong_pillar",
+      "expected_outcome": "fail",
+      "actual_outcome": "fail",
+      "self_test_passed": true,
+      "passed": true,
+      "violations": [
+        {
+          "type": "wrong_pillar",
+          "detail": "AI 将年柱写为甲子，实际应为己卯",
+          "severity": "error"
+        }
+      ],
+      "suggested_action": "retry",
+      "text_excerpt": "您的年柱甲子代表早年家境，月柱癸酉、日柱戊寅、时柱癸亥构成完整命盘。"
+    },
+    {
+      "case_id": "case_001",
+      "label": "violation_medical",
+      "expected_outcome": "fail",
+      "actual_outcome": "fail",
+      "self_test_passed": true,
+      "passed": true,
+      "violations": [
+        {
+          "type": "medical_legal_absolute",
+          "detail": "健康/法律/投资绝对建议「建议购买比特币」",
+          "severity": "error"
+        },
+        {
+          "type": "medical_legal_absolute",
+          "detail": "健康/法律/投资绝对建议「打官司一定」",
+          "severity": "error"
+        }
+      ],
+      "suggested_action": "retry",
+      "text_excerpt": "建议购买比特币改善财运。打官司一定胜诉。"
+    }
+  ]
+}

@@ -9,6 +9,15 @@
 - 五行：{wuxing_summary}
 - 关注方向：{focus_topics}
 
+## 规则引擎分析结果
+- 日主：{day_master}（{strength_level}）
+- 格局：{pattern}
+- 喜用五行：{useful_elements}
+- 忌神五行：{avoid_elements}
+- 调候：{climate_note}
+
+**约束**：流年分析必须基于以上喜忌判断。流年天干地支属喜用五行时偏利，属忌神五行时需警惕。不得编造。
+
 ## 用户当前问题
 {question}
 

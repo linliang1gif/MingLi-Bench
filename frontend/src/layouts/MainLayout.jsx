@@ -7,6 +7,7 @@ import {
   FileTextOutlined,
   HistoryOutlined,
   SettingOutlined,
+  AuditOutlined,
 } from '@ant-design/icons';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import LogoSeal from '../components/LogoSeal';
@@ -22,6 +23,7 @@ const NAV = [
   { key: '/chart',     icon: <CompassOutlined />,  label: '命盘分析' },
   { key: '/reports',   icon: <FileTextOutlined />, label: '分析报告' },
   { key: '/history',   icon: <HistoryOutlined />,  label: '历史记录' },
+  { key: '/case-review', icon: <AuditOutlined />, label: '案例审核' },
   { key: '/settings',  icon: <SettingOutlined />,  label: '设置' },
 ];
 
@@ -42,6 +44,8 @@ export default function MainLayout() {
         className="ml-side"
         width={232}
         breakpoint="lg"
+        collapsedWidth={0}
+        trigger={null}
         style={{
           position: 'sticky',
           top: 0,
@@ -90,7 +94,7 @@ export default function MainLayout() {
         </div>
       </Sider>
 
-      <Layout>
+      <Layout style={{ height: '100vh', overflow: 'hidden' }}>
         <Header
           style={{
             position: 'sticky',
