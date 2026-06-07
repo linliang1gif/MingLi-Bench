@@ -378,6 +378,9 @@ class LandscapePhotoRecord(Base):
     degree: Mapped[Optional[float]] = mapped_column(Float)
     direction_8: Mapped[Optional[str]] = mapped_column(String(16))
     direction_24: Mapped[Optional[str]] = mapped_column(String(16))
+    latitude: Mapped[Optional[float]] = mapped_column(Float)
+    longitude: Mapped[Optional[float]] = mapped_column(Float)
+    location_note: Mapped[Optional[str]] = mapped_column(String(256))
     analysis_json: Mapped[Optional[str]] = mapped_column(Text)
     user_correction_json: Mapped[Optional[str]] = mapped_column(Text)
     report_id: Mapped[Optional[int]] = mapped_column(
@@ -400,6 +403,8 @@ class YinzhaiStudyRecord(Base):
     title: Mapped[str] = mapped_column(String(128), nullable=False)
     site_type: Mapped[Optional[str]] = mapped_column(String(64))
     location_note: Mapped[Optional[str]] = mapped_column(String(256))
+    latitude: Mapped[Optional[float]] = mapped_column(Float)
+    longitude: Mapped[Optional[float]] = mapped_column(Float)
     mountain_degree: Mapped[Optional[float]] = mapped_column(Float)
     mountain_direction_24: Mapped[Optional[str]] = mapped_column(String(16))
     facing_degree: Mapped[Optional[float]] = mapped_column(Float)
@@ -432,6 +437,9 @@ class TianxingFengshuiRecord(Base):
     query_type: Mapped[str] = mapped_column(String(32), default="mountain")
     degree: Mapped[Optional[float]] = mapped_column(Float)
     mountain_24: Mapped[str] = mapped_column(String(16), nullable=False, index=True)
+    latitude: Mapped[Optional[float]] = mapped_column(Float)
+    longitude: Mapped[Optional[float]] = mapped_column(Float)
+    location_note: Mapped[Optional[str]] = mapped_column(String(256))
     tianxing_json: Mapped[str] = mapped_column(Text, nullable=False)
     input_json: Mapped[Optional[str]] = mapped_column(Text)
     report_id: Mapped[Optional[int]] = mapped_column(

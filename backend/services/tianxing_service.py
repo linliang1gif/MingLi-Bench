@@ -51,6 +51,9 @@ def _serialize_record(row: TianxingFengshuiRecord) -> Dict[str, Any]:
         "query_type": row.query_type,
         "degree": row.degree,
         "mountain_24": row.mountain_24,
+        "latitude": row.latitude,
+        "longitude": row.longitude,
+        "location_note": row.location_note,
         "tianxing": _loads(row.tianxing_json) or {},
         "input_json": _loads(row.input_json) or {},
         "report_id": row.report_id,
@@ -80,6 +83,9 @@ def save_record(db: Session, payload: Dict[str, Any], result: Dict[str, Any]) ->
         query_type=result.get("query_type") or "mountain",
         degree=mapping.get("degree"),
         mountain_24=mapping["mountain_24"],
+        latitude=float(payload["latitude"]) if payload.get("latitude") is not None else None,
+        longitude=float(payload["longitude"]) if payload.get("longitude") is not None else None,
+        location_note=payload.get("location_note"),
         tianxing_json=json.dumps(mapping, ensure_ascii=False),
         input_json=json.dumps(payload, ensure_ascii=False),
     )
@@ -136,13 +142,20 @@ def _resolve_report_input(db: Session, payload: Dict[str, Any]) -> Dict[str, Any
         record = save_record(db, payload, result)
         row = db.get(TianxingFengshuiRecord, int(record["id"]))
         house_id = row.house_id if row else payload.get("house_id")
+    record_data = _serialize_record(row) if row else record
+    location = {
+        "latitude": record_data.get("latitude"),
+        "longitude": record_data.get("longitude"),
+        "location_note": record_data.get("location_note"),
+    }
     house = get_house(db, house_id) if house_id is not None else None
     compass_records = list_compass_records(db, house_id) if house_id is not None else []
     return {
-        "record": _serialize_record(row) if row else record,
+        "record": record_data,
         "result": result,
         "house_id": house_id,
         "house": house,
+        "location": location,
         "compass_records": compass_records or [],
         "note": payload.get("note"),
     }
@@ -158,6 +171,8 @@ def generate_report(db: Session, payload: Dict[str, Any]) -> Dict[str, Any]:
         "record_id": record["id"],
         "house_id": resolved["house_id"],
         "house": resolved["house"],
+        "record": record,
+        "location": resolved.get("location"),
         "tianxing": result,
         "compass_records": resolved["compass_records"],
         "note": resolved.get("note"),
@@ -217,6 +232,7 @@ def generate_report(db: Session, payload: Dict[str, Any]) -> Dict[str, Any]:
             house=resolved["house"],
             references=references,
             note=resolved.get("note"),
+            location=resolved.get("location"),
         )
 
     markdown = prompt_service.append_mode_warning(markdown, analysis_mode)

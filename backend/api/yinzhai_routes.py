@@ -17,6 +17,8 @@ class YinzhaiRecordIn(BaseModel):
     title: str = Field(default="阴宅研究记录", min_length=1)
     site_type: str = "study_case"
     location_note: Optional[str] = None
+    latitude: Optional[float] = Field(default=None, ge=-90, le=90)
+    longitude: Optional[float] = Field(default=None, ge=-180, le=180)
     mountain_degree: Optional[float] = Field(default=None, ge=0, le=360)
     facing_degree: Optional[float] = Field(default=None, ge=0, le=360)
     dragon: Dict[str, Any] = Field(default_factory=dict)

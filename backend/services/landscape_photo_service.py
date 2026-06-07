@@ -64,6 +64,9 @@ def _serialize_record(row: LandscapePhotoRecord) -> Dict[str, Any]:
         "degree": row.degree,
         "direction_8": row.direction_8,
         "direction_24": row.direction_24,
+        "latitude": row.latitude,
+        "longitude": row.longitude,
+        "location_note": row.location_note,
         "analysis_json": _loads(row.analysis_json),
         "user_correction_json": _loads(row.user_correction_json),
         "report_id": row.report_id,
@@ -149,6 +152,9 @@ def upload_photo(
     scene_type: str,
     target_label: Optional[str],
     degree: Optional[float],
+    latitude: Optional[float],
+    longitude: Optional[float],
+    location_note: Optional[str],
     filename: str,
     content_type: Optional[str],
     fileobj: BinaryIO,
@@ -174,6 +180,9 @@ def upload_photo(
         degree=orientation.get("degree"),
         direction_8=orientation.get("direction_8"),
         direction_24=orientation.get("direction_24"),
+        latitude=float(latitude) if latitude is not None else None,
+        longitude=float(longitude) if longitude is not None else None,
+        location_note=location_note,
     )
     db.add(row)
     db.commit()

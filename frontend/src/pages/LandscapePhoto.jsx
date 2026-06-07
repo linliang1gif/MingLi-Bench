@@ -20,6 +20,7 @@ import {
 import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
 import AnalysisModeSelector from '../components/AnalysisModeSelector';
+import LocationPicker from '../components/LocationPicker';
 import PageBanner from '../components/PageBanner';
 import PaperCard from '../components/PaperCard';
 
@@ -142,6 +143,9 @@ export default function LandscapePhoto() {
         sceneType: values.scene_type,
         targetLabel: values.target_label,
         degree: values.degree,
+        latitude: values.latitude,
+        longitude: values.longitude,
+        locationNote: values.location_note,
         file: selectedFile,
       });
       setRecord(upload.record);
@@ -219,6 +223,15 @@ export default function LandscapePhoto() {
     { title: '场景', dataIndex: 'scene_type', width: 130, render: (v) => <Tag color={isHeritageScene(v) ? 'orange' : 'blue'}>{sceneLabel(v)}</Tag> },
     { title: '目标', dataIndex: 'target_label', width: 140, render: (v) => v || '—' },
     { title: '方位', width: 120, render: (_, r) => r.degree == null ? (r.direction_24 || '—') : `${r.degree}° / ${r.direction_24 || '—'}` },
+    {
+      title: '位置',
+      width: 150,
+      render: (_, r) => (
+        r.latitude != null && r.longitude != null
+          ? `${Number(r.latitude).toFixed(5)}, ${Number(r.longitude).toFixed(5)}`
+          : '—'
+      ),
+    },
     { title: '图片', dataIndex: 'image_path', ellipsis: true, render: (v) => v || '—' },
     { title: '报告', dataIndex: 'report_id', width: 90, render: (v) => v ? <Button size="small" onClick={() => navigate(`/reports/${v}`)}>查看</Button> : '—' },
     {
@@ -251,14 +264,6 @@ export default function LandscapePhoto() {
             </Button>
           </Space>
         }
-      />
-
-      <Alert
-        type="warning"
-        showIcon
-        style={{ marginBottom: 18 }}
-        message="研究边界"
-        description="外局拍照识别只用于传统文化研究、现场环境记录和资料整理。照片只能反映局部视角，不作墓地或住宅吉凶强断，不提供改葬、迁坟、法事化解或诱导消费建议。"
       />
 
       {isHeritageScene(sceneType) && (
@@ -310,6 +315,12 @@ export default function LandscapePhoto() {
                   <InputNumber min={0} max={360} precision={2} style={{ width: '100%' }} />
                 </Form.Item>
               </Space>
+              <LocationPicker
+                form={form}
+                title="现场位置记录"
+                description="可在地图上标记拍照位置，用于外局照片和报告版本追溯。"
+                notePlaceholder="可记录公开可描述的拍照点、周边参照物或资料来源"
+              />
             </Form>
 
             <Space wrap>

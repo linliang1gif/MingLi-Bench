@@ -28,6 +28,20 @@ _COLUMN_MIGRATIONS = {
     "report_versions": [
         ("references_json", "TEXT"),
     ],
+    "landscape_photo_records": [
+        ("latitude", "REAL"),
+        ("longitude", "REAL"),
+        ("location_note", "TEXT"),
+    ],
+    "yinzhai_study_records": [
+        ("latitude", "REAL"),
+        ("longitude", "REAL"),
+    ],
+    "tianxing_fengshui_records": [
+        ("latitude", "REAL"),
+        ("longitude", "REAL"),
+        ("location_note", "TEXT"),
+    ],
 }
 
 

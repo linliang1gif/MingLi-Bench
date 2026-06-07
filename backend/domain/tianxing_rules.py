@@ -141,12 +141,19 @@ def fallback_markdown(
     house: Dict[str, Any] | None,
     references: List[Dict[str, Any]],
     note: str | None = None,
+    location: Dict[str, Any] | None = None,
 ) -> str:
     mapping = result.get("mapping") or {}
     house_name = (house or {}).get("name") or "未关联房屋"
     ref_titles = summarize_references(references)
     aliases = "、".join(mapping.get("aliases") or []) or "未记录"
     degree_range = mapping.get("degree_range") or {}
+    location = location or {}
+    location_text = (
+        f"{location.get('latitude')}, {location.get('longitude')}"
+        if location.get("latitude") is not None and location.get("longitude") is not None
+        else "未记录"
+    )
     return f"""### 1. 结论
 本报告为「{house_name}」的天星风水资料查询说明。当前山向为 **{mapping.get('mountain_24')}**，V1.4 映射为 **{mapping.get('tianxing')}**，用于文化研究和报告引用，不作绝对吉凶判断。
 
@@ -155,6 +162,8 @@ def fallback_markdown(
 - 八方：{mapping.get('direction_8') or '未按角度查询'}
 - 输入角度：{mapping.get('degree', '未填写')}
 - 山向角度范围：{degree_range.get('start')}° - {degree_range.get('end')}°，中心约 {degree_range.get('center')}°
+- 现场坐标：{location_text}
+- 地点备注：{location.get('location_note') or '未填写'}
 
 ### 3. 天星映射
 - 天星名：{mapping.get('tianxing')}

@@ -18,6 +18,7 @@ import {
 import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
 import AnalysisModeSelector from '../components/AnalysisModeSelector';
+import LocationPicker from '../components/LocationPicker';
 import PageBanner from '../components/PageBanner';
 import PaperCard from '../components/PaperCard';
 
@@ -84,6 +85,9 @@ export default function TianxingFengshui() {
         house_id: values.house_id,
         degree: values.degree,
         mountain_24: values.degree == null ? values.mountain_24 : undefined,
+        latitude: values.latitude,
+        longitude: values.longitude,
+        location_note: values.location_note,
         note: values.note,
       };
       const res = await api.queryTianxing(payload);
@@ -108,6 +112,9 @@ export default function TianxingFengshui() {
       const report = await api.generateTianxingReport({
         record_id: recordId,
         note: form.getFieldValue('note'),
+        latitude: form.getFieldValue('latitude'),
+        longitude: form.getFieldValue('longitude'),
+        location_note: form.getFieldValue('location_note'),
         analysisMode,
       });
       message.success('天星风水报告已生成');
@@ -135,6 +142,15 @@ export default function TianxingFengshui() {
     { title: '时间', dataIndex: 'created_at', width: 160, render: (v) => v ? String(v).replace('T', ' ').slice(0, 16) : '-' },
     { title: '山向', dataIndex: 'mountain_24', width: 90, render: (v) => <Tag color="blue">{v}</Tag> },
     { title: '角度', dataIndex: 'degree', width: 90, render: (v) => v == null ? '-' : `${v}°` },
+    {
+      title: '位置',
+      width: 150,
+      render: (_, r) => (
+        r.latitude != null && r.longitude != null
+          ? `${Number(r.latitude).toFixed(5)}, ${Number(r.longitude).toFixed(5)}`
+          : '-'
+      ),
+    },
     { title: '天星', dataIndex: 'tianxing', render: (v) => v?.tianxing || '-' },
     { title: '分组', dataIndex: 'tianxing', width: 120, render: (v) => v?.group || '-' },
     {
@@ -237,6 +253,12 @@ export default function TianxingFengshui() {
             <Form.Item name="note" label="记录备注">
               <Input.TextArea rows={3} placeholder="可记录用途、资料来源、现场测点或待校勘事项。" />
             </Form.Item>
+            <LocationPicker
+              form={form}
+              title="现场位置记录"
+              description="可在地图上记录本次天星查询的现场位置，用于资料归档和报告版本追溯。"
+              notePlaceholder="可记录公开可描述的测点、参照物或资料来源"
+            />
           </Form>
           {selectedHouse ? (
             <Alert type="info" showIcon message={`当前关联：${selectedHouse.name}`} />
@@ -258,6 +280,11 @@ export default function TianxingFengshui() {
                 <Descriptions.Item label="角度范围">
                   {mapping.degree_range?.start}° - {mapping.degree_range?.end}°，中心 {mapping.degree_range?.center}°
                 </Descriptions.Item>
+                {record?.latitude != null && record?.longitude != null && (
+                  <Descriptions.Item label="现场坐标" span={2}>
+                    {Number(record.latitude).toFixed(6)}, {Number(record.longitude).toFixed(6)}
+                  </Descriptions.Item>
+                )}
               </Descriptions>
               <Alert type="info" showIcon message={mapping.variant_note} />
               {record && <Tag color="green">已保存记录 #{record.id}</Tag>}

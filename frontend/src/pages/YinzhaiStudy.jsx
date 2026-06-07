@@ -18,6 +18,7 @@ import {
 import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
 import AnalysisModeSelector from '../components/AnalysisModeSelector';
+import LocationPicker from '../components/LocationPicker';
 import PageBanner from '../components/PageBanner';
 import PaperCard from '../components/PaperCard';
 
@@ -91,6 +92,8 @@ export default function YinzhaiStudy() {
         title: values.title,
         site_type: values.site_type,
         location_note: values.location_note,
+        latitude: values.latitude,
+        longitude: values.longitude,
         mountain_degree: values.mountain_degree,
         facing_degree: values.facing_degree,
         dragon: toObservation(values, 'dragon'),
@@ -144,6 +147,15 @@ export default function YinzhaiStudy() {
     { title: '时间', dataIndex: 'created_at', width: 160, render: (v) => v ? String(v).replace('T', ' ').slice(0, 16) : '-' },
     { title: '标题', dataIndex: 'title', ellipsis: true },
     { title: '类型', dataIndex: 'site_type', width: 120, render: (v) => <Tag color="blue">{siteTypeLabel(v)}</Tag> },
+    {
+      title: '位置',
+      width: 150,
+      render: (_, r) => (
+        r.latitude != null && r.longitude != null
+          ? `${Number(r.latitude).toFixed(5)}, ${Number(r.longitude).toFixed(5)}`
+          : '-'
+      ),
+    },
     { title: '坐山', dataIndex: 'mountain_direction_24', width: 90, render: (v, r) => v ? `${v} ${r.mountain_degree ?? ''}°` : '-' },
     { title: '向首', dataIndex: 'facing_direction_24', width: 90, render: (v, r) => v ? `${v} ${r.facing_degree ?? ''}°` : '-' },
     {
@@ -220,9 +232,6 @@ export default function YinzhaiStudy() {
             <Form.Item name="site_type" label="研究类型" rules={[{ required: true }]}>
               <Select options={siteTypes} />
             </Form.Item>
-            <Form.Item name="location_note" label="位置备注">
-              <Input.TextArea rows={2} placeholder="记录区域、周边环境或资料来源，不填写敏感隐私地址也可以。" />
-            </Form.Item>
             <Space wrap size={14}>
               <Form.Item name="mountain_degree" label="坐山角度">
                 <InputNumber min={0} max={360} precision={2} style={{ width: 140 }} />
@@ -231,6 +240,12 @@ export default function YinzhaiStudy() {
                 <InputNumber min={0} max={360} precision={2} style={{ width: 140 }} />
               </Form.Item>
             </Space>
+            <LocationPicker
+              form={form}
+              title="现场位置记录"
+              description="可在地图上记录研究对象的现场位置，用于资料归档和报告版本追溯。"
+              notePlaceholder="记录公开可描述的区域、周边环境或资料来源，不填写敏感隐私地址也可以。"
+            />
           </Form>
           {selectedHouse ? (
             <Alert type="info" showIcon message={`当前关联：${selectedHouse.name}`} />
@@ -270,6 +285,11 @@ export default function YinzhaiStudy() {
           <Descriptions bordered size="small" column={2}>
             <Descriptions.Item label="记录 ID">#{currentRecord.id}</Descriptions.Item>
             <Descriptions.Item label="类型">{currentRecord.site_type_label}</Descriptions.Item>
+            <Descriptions.Item label="现场坐标">
+              {currentRecord.latitude != null && currentRecord.longitude != null
+                ? `${Number(currentRecord.latitude).toFixed(6)}, ${Number(currentRecord.longitude).toFixed(6)}`
+                : '-'}
+            </Descriptions.Item>
             <Descriptions.Item label="坐山">{currentRecord.mountain_direction_24 || '-'} {currentRecord.mountain_degree ?? ''}</Descriptions.Item>
             <Descriptions.Item label="向首">{currentRecord.facing_direction_24 || '-'} {currentRecord.facing_degree ?? ''}</Descriptions.Item>
             <Descriptions.Item label="边界说明" span={2}>

@@ -16,6 +16,9 @@ class TianxingQueryIn(BaseModel):
     house_id: Optional[int] = None
     degree: Optional[float] = Field(default=None, ge=0, le=360)
     mountain_24: Optional[str] = None
+    latitude: Optional[float] = Field(default=None, ge=-90, le=90)
+    longitude: Optional[float] = Field(default=None, ge=-180, le=180)
+    location_note: Optional[str] = None
     note: Optional[str] = None
 
 
@@ -24,6 +27,9 @@ class TianxingReportIn(BaseModel):
     house_id: Optional[int] = None
     degree: Optional[float] = Field(default=None, ge=0, le=360)
     mountain_24: Optional[str] = None
+    latitude: Optional[float] = Field(default=None, ge=-90, le=90)
+    longitude: Optional[float] = Field(default=None, ge=-180, le=180)
+    location_note: Optional[str] = None
     note: Optional[str] = None
     analysis_mode: str = "safe"
 

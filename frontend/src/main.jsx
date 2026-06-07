@@ -5,6 +5,7 @@ import { ConfigProvider, App as AntApp } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
 import dayjs from 'dayjs';
 import 'dayjs/locale/zh-cn';
+import 'leaflet/dist/leaflet.css';
 
 dayjs.locale('zh-cn');
 

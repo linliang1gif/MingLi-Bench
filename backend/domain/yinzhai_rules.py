@@ -92,11 +92,17 @@ def fallback_markdown(
     mountain = result.get("mountain") or {}
     facing = result.get("facing") or {}
     ref_titles = summarize_references(references)
+    location_text = (
+        f"{record.get('latitude')}, {record.get('longitude')}"
+        if record.get("latitude") is not None and record.get("longitude") is not None
+        else "未记录"
+    )
     return f"""### 1. 结论
 本报告为「{record.get('title')}」的阴宅研究记录说明，定位是传统文化资料整理与环境观察，不作墓地吉凶强断。当前记录完整度约为 {result.get('completion_score', 0)} / 6，适合继续补充现场环境、罗盘数据和古籍引用。
 
 ### 2. 研究对象与边界
 - 类型：{site_type_label(record.get('site_type'))}
+- 现场坐标：{location_text}
 - 位置备注：{record.get('location_note') or '未填写'}
 - 边界：{BOUNDARY_NOTE}
 

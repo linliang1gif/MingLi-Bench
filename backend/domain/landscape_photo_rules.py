@@ -602,6 +602,11 @@ def heritage_fallback_markdown(
     scene = scene_label(record.get("scene_type"))
     house_name = (house or {}).get("name") or "未关联房屋"
     target = record.get("target_label") or "未标注"
+    location_text = (
+        f"{record.get('latitude')}, {record.get('longitude')}"
+        if record.get("latitude") is not None and record.get("longitude") is not None
+        else "未记录"
+    )
     objects = summarize_objects(analysis)
     correction_text = summarize_correction(correction)
     heritage_elements = summarize_heritage_elements(analysis, correction)
@@ -615,6 +620,8 @@ def heritage_fallback_markdown(
 ### 2. 拍照场景
 - 场景类型：{scene}
 - 目标名称：{target}
+- 现场坐标：{location_text}
+- 地点备注：{record.get('location_note') or '未填写'}
 - 图片路径：{record.get('image_path')}
 
 ### 3. 地貌要素
@@ -643,6 +650,8 @@ def heritage_fallback_markdown(
 - 关联对象：{house_name}
 - 拍照场景：{scene}
 - 目标备注：{target}
+- 现场坐标：{location_text}
+- 地点备注：{record.get('location_note') or '未填写'}
 - 文保风险等级：{risk_level}
 - 现场保护/上报备注：{protection_note}
 - 参考来源：{ref_titles}
@@ -671,6 +680,11 @@ def fallback_markdown(
     scene = scene_label(record.get("scene_type"))
     house_name = (house or {}).get("name") or "未关联房屋"
     target = record.get("target_label") or "未标注"
+    location_text = (
+        f"{record.get('latitude')}, {record.get('longitude')}"
+        if record.get("latitude") is not None and record.get("longitude") is not None
+        else "未记录"
+    )
     objects = summarize_objects(analysis)
     correction_text = summarize_correction(correction)
     points = "\n".join(f"- {item}" for item in infer_focus_points(analysis, correction))
@@ -700,6 +714,8 @@ def fallback_markdown(
 ### 2. 场景与目标
 - 场景类型：{scene}
 - 目标名称：{target}
+- 现场坐标：{location_text}
+- 地点备注：{record.get('location_note') or '未填写'}
 - 图片路径：{record.get('image_path')}
 
 ### 3. 图片识别结果

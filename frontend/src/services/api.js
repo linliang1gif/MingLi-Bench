@@ -268,12 +268,24 @@ export const api = {
   }),
   getFengshuiPhotoRecords: (params) => request('/api/fengshui-photo/records', { params }),
   deleteFengshuiPhotoRecord: (id) => request(`/api/fengshui-photo/records/${id}`, { method: 'DELETE' }),
-  uploadLandscapePhoto: ({ houseId, sceneType, targetLabel, degree, file }) => {
+  uploadLandscapePhoto: ({
+    houseId,
+    sceneType,
+    targetLabel,
+    degree,
+    latitude,
+    longitude,
+    locationNote,
+    file,
+  }) => {
     const form = new FormData();
     if (houseId !== undefined && houseId !== null && houseId !== '') form.append('house_id', houseId);
     form.append('scene_type', sceneType || 'house_landscape');
     if (targetLabel) form.append('target_label', targetLabel);
     if (degree !== undefined && degree !== null && degree !== '') form.append('degree', degree);
+    if (latitude !== undefined && latitude !== null && latitude !== '') form.append('latitude', latitude);
+    if (longitude !== undefined && longitude !== null && longitude !== '') form.append('longitude', longitude);
+    if (locationNote) form.append('location_note', locationNote);
     form.append('file', file);
     return request('/api/landscape-photo/upload', {
       method: 'POST',
