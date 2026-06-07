@@ -16,7 +16,11 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, Optional
 
+from sqlalchemy.orm import Session
+
 from ..core.settings import settings
+from ..db.models import PromptTemplate
+from . import analysis_mode_service, prompt_template_service
 
 
 METHODOLOGY = """
@@ -120,7 +124,9 @@ def _render(template: str, context: Dict[str, Any]) -> str:
     for k, v in context.items():
         if k.startswith("_"):  # 内部引用不替换
             continue
-        out = out.replace("{" + k + "}", str(v) if v is not None else "")
+        value = str(v) if v is not None else ""
+        out = out.replace("{{" + k + "}}", value)
+        out = out.replace("{" + k + "}", value)
     # 检测未替换的占位符（警告但不报错，避免阻断服务）
     remaining = _PLACEHOLDER_RE.findall(out)
     # 过滤常见的 Markdown / JSON 中的假占位符
@@ -131,6 +137,29 @@ def _render(template: str, context: Dict[str, Any]) -> str:
             "prompt_render: unreplaced placeholders: %s", real_remaining
         )
     return out
+
+
+def _with_mode_context(context: Dict[str, Any], module: Optional[str] = None) -> Dict[str, Any]:
+    mode = analysis_mode_service.normalize_mode_from_input(context)
+    enriched = dict(context)
+    enriched.update(analysis_mode_service.build_prompt_context(mode, module or context.get("module")))
+    return enriched
+
+
+def _append_mode_rules(system_prompt: str, context: Dict[str, Any]) -> str:
+    mode_rules = context.get("mode_rules") or ""
+    mode_warning = context.get("mode_warning") or ""
+    if not mode_rules:
+        return system_prompt
+    source = system_prompt or ""
+    if mode_rules in source:
+        return source
+    return (
+        source.rstrip()
+        + "\n\n【分析模式规则】\n"
+        + mode_rules
+        + ("\n" + mode_warning if mode_warning else "")
+    ).strip()
 
 
 _PILLAR_LABELS = {"year": "年柱", "month": "月柱", "day": "日柱", "hour": "时柱"}
@@ -443,6 +472,7 @@ def _format_rule_analysis(chart: Dict[str, Any]) -> str:
 
 def render_user_prompt(template_name: str, context: Dict[str, Any]) -> str:
     """把上下文塞进模板。模板缺失时使用 minimal fallback。"""
+    context = _with_mode_context(context)
     tpl = _load_template(template_name)
     if not tpl:
         # fallback 简化版
@@ -454,8 +484,32 @@ def render_user_prompt(template_name: str, context: Dict[str, Any]) -> str:
     return _render(tpl, context)
 
 
-def get_system_prompt() -> str:
-    return f"[prompt_version={PROMPT_VERSION}]\n\n" + SYSTEM_BASE
+def get_db_template(db: Session, module: str) -> Optional[PromptTemplate]:
+    """读取启用的数据库 Prompt 模板；没有则由调用方 fallback 到旧模板。"""
+    return prompt_template_service.get_enabled_template(db, module)
+
+
+def render_db_template(template: PromptTemplate, context: Dict[str, Any]) -> Dict[str, str]:
+    """渲染数据库模板，返回 system/user prompt 和版本号。"""
+    context = _with_mode_context(context, template.module)
+    system_prompt = _render(template.system_prompt or "", context)
+    return {
+        "system_prompt": _append_mode_rules(system_prompt, context),
+        "user_prompt": _render(template.user_prompt_template or "", context),
+        "version": template.version,
+    }
+
+
+def get_system_prompt(
+    analysis_mode: str = analysis_mode_service.SAFE_MODE,
+    module: Optional[str] = None,
+) -> str:
+    ctx = analysis_mode_service.build_prompt_context(analysis_mode, module)
+    return _append_mode_rules(f"[prompt_version={PROMPT_VERSION}]\n\n" + SYSTEM_BASE, ctx)
+
+
+def append_mode_warning(text: str, analysis_mode: str = analysis_mode_service.SAFE_MODE) -> str:
+    return analysis_mode_service.ensure_mode_warning(text, analysis_mode)
 
 
 def append_disclaimer(text: str) -> str:

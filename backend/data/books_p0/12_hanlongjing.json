@@ -1,0 +1,415 @@
+{
+  "title": "撼龙经",
+  "alias": "撼龙经辑要",
+  "category_code": "18",
+  "author": "杨筠松",
+  "dynasty": "唐",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "形势派龙脉观察参考，服务阴宅、天星风水与地形格局说明。",
+  "chunks": [
+    {
+      "chapter": "撼龙经要点",
+      "section": "01 龙脉起伏",
+      "original_text": "龙脉起伏之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：龙脉起伏用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "龙脉起伏",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·龙脉起伏整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "02 祖山",
+      "original_text": "论祖山，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：祖山用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "祖山",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·祖山整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "03 少祖山",
+      "original_text": "少祖山为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：少祖山用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "少祖山",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·少祖山整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "04 父母山",
+      "original_text": "凡看父母山，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：父母山用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "父母山",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·父母山整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "05 过峡",
+      "original_text": "过峡须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：过峡用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "过峡",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·过峡整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "06 开帐",
+      "original_text": "开帐之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：开帐用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "开帐",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·开帐整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "07 剥换",
+      "original_text": "论剥换，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：剥换用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "剥换",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·剥换整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "08 行龙",
+      "original_text": "行龙为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：行龙用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "行龙",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·行龙整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "09 止龙",
+      "original_text": "凡看止龙，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：止龙用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "止龙",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·止龙整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "10 结穴",
+      "original_text": "结穴须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：结穴用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "结穴",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·结穴整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "11 砂手",
+      "original_text": "砂手之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：砂手用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "砂手",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·砂手整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "12 水口",
+      "original_text": "论水口，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：水口用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "水口",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·水口整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "13 朝案",
+      "original_text": "朝案为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：朝案用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "朝案",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·朝案整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "14 明堂",
+      "original_text": "凡看明堂，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：明堂用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "明堂",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·明堂整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "15 星峰",
+      "original_text": "星峰须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：星峰用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "星峰",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·星峰整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "16 五星山",
+      "original_text": "五星山之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：五星山用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "五星山",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·五星山整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "17 九星山",
+      "original_text": "论九星山，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：九星山用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "九星山",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·九星山整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "18 贵贱形势",
+      "original_text": "贵贱形势为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：贵贱形势用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "贵贱形势",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·贵贱形势整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "19 山水配合",
+      "original_text": "凡看山水配合，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：山水配合用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "山水配合",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·山水配合整理"
+    },
+    {
+      "chapter": "撼龙经要点",
+      "section": "20 审形取象",
+      "original_text": "审形取象须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：审形取象用于撼龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "撼龙经",
+        "龙脉",
+        "形势",
+        "山法",
+        "审形取象",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "撼龙经·审形取象整理"
+    }
+  ]
+}

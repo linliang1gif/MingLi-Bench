@@ -1,0 +1,412 @@
+{
+  "title": "滴天髓",
+  "alias": "滴天髓阐微",
+  "category_code": "31",
+  "author": "佚名",
+  "dynasty": "明清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "A",
+  "risk_level": "medium",
+  "description": "命理义理经典，侧重五行气势、体用、清浊与中和。",
+  "chunks": [
+    {
+      "chapter": "滴天髓要点",
+      "section": "01 天道",
+      "original_text": "天道之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：天道用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "天道",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·天道整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "02 地道",
+      "original_text": "论地道，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：地道用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "地道",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·地道整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "03 人道",
+      "original_text": "人道为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：人道用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "人道",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·人道整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "04 干支",
+      "original_text": "凡看干支，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：干支用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "干支",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·干支整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "05 五行",
+      "original_text": "五行须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：五行用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·五行整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "06 中和",
+      "original_text": "中和之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：中和用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "中和",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·中和整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "07 清浊",
+      "original_text": "论清浊，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：清浊用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "清浊",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·清浊整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "08 顺逆",
+      "original_text": "顺逆为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：顺逆用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "顺逆",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·顺逆整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "09 体用",
+      "original_text": "凡看体用，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：体用用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·体用整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "10 源流",
+      "original_text": "源流须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：源流用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "源流",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·源流整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "11 寒暖",
+      "original_text": "寒暖之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：寒暖用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "寒暖",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·寒暖整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "12 燥湿",
+      "original_text": "论燥湿，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：燥湿用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "燥湿",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·燥湿整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "13 众寡",
+      "original_text": "众寡为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：众寡用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "众寡",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·众寡整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "14 强弱",
+      "original_text": "凡看强弱，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：强弱用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "强弱",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·强弱整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "15 真假",
+      "original_text": "真假须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：真假用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "真假",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·真假整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "16 精神",
+      "original_text": "精神之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：精神用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "精神",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·精神整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "17 月令",
+      "original_text": "论月令，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：月令用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "月令",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·月令整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "18 通关",
+      "original_text": "通关为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：通关用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "通关",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·通关整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "19 病药",
+      "original_text": "凡看病药，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：病药用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "病药",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·病药整理"
+    },
+    {
+      "chapter": "滴天髓要点",
+      "section": "20 气势",
+      "original_text": "气势须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：气势用于滴天髓相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "滴天髓",
+        "五行",
+        "气势",
+        "体用",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "滴天髓·气势整理"
+    }
+  ]
+}

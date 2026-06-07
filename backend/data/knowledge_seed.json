@@ -1,0 +1,226 @@
+[
+  {
+    "title": "周易",
+    "alias": "易经",
+    "category_code": "01",
+    "author": "佚名",
+    "dynasty": "先秦",
+    "version": "starter",
+    "source": "传统经典入门样例",
+    "reliability_level": "A",
+    "risk_level": "low",
+    "description": "易学基础经典，用于建立阴阳、变化、象数的知识根基。",
+    "chunks": [
+      {
+        "chapter": "系辞",
+        "section": "基础义理",
+        "original_text": "一阴一阳之谓道，继之者善也，成之者性也。",
+        "explanation": "以阴阳变化说明万物运行的基本结构，适合用于易学基础、阴阳五行和传统哲学说明。",
+        "tags": "易经,阴阳,传统哲学",
+        "applicable_modules": "chat,bazi_report,fengshui_basic",
+        "source_ref": "《周易·系辞》"
+      },
+      {
+        "chapter": "说卦",
+        "section": "八卦取象",
+        "original_text": "乾为天，坤为地，震为雷，巽为风，坎为水，离为火，艮为山，兑为泽。",
+        "explanation": "八卦取象是罗盘、风水、占筮等模块的重要基础，可作为象义解释的引用来源。",
+        "tags": "八卦,取象,易经基础",
+        "applicable_modules": "compass_report,divination,chat",
+        "source_ref": "《周易·说卦》"
+      }
+    ]
+  },
+  {
+    "title": "阳宅三要",
+    "alias": null,
+    "category_code": "12",
+    "author": "赵九峰",
+    "dynasty": "清",
+    "version": "starter",
+    "source": "传统阳宅文献入门样例",
+    "reliability_level": "B",
+    "risk_level": "medium",
+    "description": "阳宅风水常见参考书，侧重门、主、灶三项。",
+    "chunks": [
+      {
+        "chapter": "总论",
+        "section": "门主灶",
+        "original_text": "阳宅三要者，门、主、灶也。",
+        "explanation": "传统阳宅常以大门、主人居住空间、厨房灶位作为观察重点。现代使用时应结合采光、通风、动线和安全。",
+        "tags": "阳宅,大门,灶位,卧室",
+        "applicable_modules": "fengshui_basic,compass_report,knowledge_search",
+        "source_ref": "《阳宅三要》"
+      },
+      {
+        "chapter": "门法",
+        "section": "大门观察",
+        "original_text": "门为宅之气口。",
+        "explanation": "大门可理解为住宅主要出入口与动线入口，第一版分析可结合朝向、明暗、遮挡、开门空间等现实因素。",
+        "tags": "阳宅,大门,气口,动线",
+        "applicable_modules": "house_profiles,compass_report,fengshui_basic",
+        "source_ref": "《阳宅三要》"
+      }
+    ]
+  },
+  {
+    "title": "罗经透解",
+    "alias": "罗盘入门",
+    "category_code": "21",
+    "author": "佚名",
+    "dynasty": "清",
+    "version": "starter",
+    "source": "罗盘二十四山入门样例",
+    "reliability_level": "B",
+    "risk_level": "medium",
+    "description": "罗盘、二十四山、坐向分金的入门参考。",
+    "chunks": [
+      {
+        "chapter": "二十四山",
+        "section": "山向分布",
+        "original_text": "二十四山分列八方，每山十五度。",
+        "explanation": "系统罗盘模块按 360 度划分二十四山，以正北为子山中心，用于记录大门、窗、床、桌等方向。",
+        "tags": "罗盘,二十四山,坐向",
+        "applicable_modules": "compass_report,house_profiles",
+        "source_ref": "罗盘传统规则整理"
+      },
+      {
+        "chapter": "方位",
+        "section": "八方",
+        "original_text": "子午卯酉居四正，乾坤艮巽居四维。",
+        "explanation": "四正与四维是罗盘方位说明的基本语言，可用于把角度结果转成传统方位表达。",
+        "tags": "四正,四维,八方,罗盘",
+        "applicable_modules": "compass_report",
+        "source_ref": "罗盘传统规则整理"
+      }
+    ]
+  },
+  {
+    "title": "协纪辨方书",
+    "alias": "择日通书",
+    "category_code": "27",
+    "author": "清代钦定",
+    "dynasty": "清",
+    "version": "starter",
+    "source": "择日文化入门样例",
+    "reliability_level": "B",
+    "risk_level": "medium",
+    "description": "择日文化常见参考，第一版只作为格式和术语来源。",
+    "chunks": [
+      {
+        "chapter": "用事",
+        "section": "择日原则",
+        "original_text": "凡选择，贵在审事之宜。",
+        "explanation": "择日第一版应先确认事项类型与现实约束，再给出传统文化参考，不作绝对吉凶判断。",
+        "tags": "择日,用事,黄历",
+        "applicable_modules": "date_selection",
+        "source_ref": "《协纪辨方书》择日原则整理"
+      },
+      {
+        "chapter": "民俗",
+        "section": "婚嫁入宅",
+        "original_text": "婚嫁、入宅、开市、动土，各有所宜。",
+        "explanation": "不同事项需要不同报告结构，婚期侧重双方与流程，入宅侧重搬迁动线，开业侧重现实执行。",
+        "tags": "婚期择日,入宅,开业,动土",
+        "applicable_modules": "date_selection",
+        "source_ref": "择日通书术语整理"
+      }
+    ]
+  },
+  {
+    "title": "康熙字典",
+    "alias": "字书",
+    "category_code": "28",
+    "author": "张玉书等",
+    "dynasty": "清",
+    "version": "starter",
+    "source": "起名字义参考样例",
+    "reliability_level": "A",
+    "risk_level": "low",
+    "description": "起名工具可引用的字形、字义、音韵参考。",
+    "chunks": [
+      {
+        "chapter": "字义",
+        "section": "起名参考",
+        "original_text": "名者，命也，自命也。",
+        "explanation": "起名应重视字义、读音、书写识别和现实使用感，避免过度承诺与迷信化表达。",
+        "tags": "起名,字义,姓名",
+        "applicable_modules": "naming",
+        "source_ref": "传统字书与姓名文化整理"
+      },
+      {
+        "chapter": "避讳",
+        "section": "用字风险",
+        "original_text": "取名宜雅正，忌鄙俗怪诞。",
+        "explanation": "起名第一版需要避开低俗、恐吓、过度神秘和明显承诺效果的字词。",
+        "tags": "起名,避讳,风险词",
+        "applicable_modules": "naming,risk",
+        "source_ref": "姓名文化通用原则整理"
+      }
+    ]
+  },
+  {
+    "title": "测字秘牒",
+    "alias": "测字入门",
+    "category_code": "44",
+    "author": "佚名",
+    "dynasty": "明清",
+    "version": "starter",
+    "source": "测字文化入门样例",
+    "reliability_level": "C",
+    "risk_level": "medium",
+    "description": "测字拆字与字占的文化说明样例，仅作娱乐参考。",
+    "chunks": [
+      {
+        "chapter": "拆字",
+        "section": "字形观察",
+        "original_text": "测字之法，先观其形，次察其义。",
+        "explanation": "测字模块可从字形结构、字义联想、问题语境和现实建议四层展开，但不得强断结果。",
+        "tags": "测字,拆字,字形",
+        "applicable_modules": "word_divination",
+        "source_ref": "测字文化整理"
+      },
+      {
+        "chapter": "问事",
+        "section": "现实建议",
+        "original_text": "占辞贵在启发，不可执一。",
+        "explanation": "测字结果应作为启发式反思，不替代现实判断、专业建议和行动计划。",
+        "tags": "测字,启发,风险提醒",
+        "applicable_modules": "word_divination,risk",
+        "source_ref": "测字文化整理"
+      }
+    ]
+  },
+  {
+    "title": "观音灵签",
+    "alias": "灵签体系",
+    "category_code": "45",
+    "author": "民间汇编",
+    "dynasty": "民间",
+    "version": "starter",
+    "source": "灵签文化入门样例",
+    "reliability_level": "C",
+    "risk_level": "medium",
+    "description": "签诗签占文化说明样例，仅用于娱乐和传统文化参考。",
+    "chunks": [
+      {
+        "chapter": "签占",
+        "section": "使用边界",
+        "original_text": "签诗多借象寓意，贵在自省。",
+        "explanation": "灵签模块应明确娱乐和传统文化参考属性，不给出强制性人生决策建议。",
+        "tags": "灵签,签诗,娱乐参考",
+        "applicable_modules": "lottery",
+        "source_ref": "灵签文化整理"
+      },
+      {
+        "chapter": "解签",
+        "section": "吉凶表达",
+        "original_text": "吉凶之辞，宜以趋避修省解之。",
+        "explanation": "解签时应把吉凶转化为现实提醒，如准备、沟通、复盘、延迟决策，而不是恐吓或保证。",
+        "tags": "解签,风险提醒,现实建议",
+        "applicable_modules": "lottery,risk",
+        "source_ref": "灵签文化整理"
+      }
+    ]
+  }
+]

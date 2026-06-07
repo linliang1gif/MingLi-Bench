@@ -1,0 +1,395 @@
+{
+  "title": "协纪辨方书",
+  "alias": "钦定协纪辨方书",
+  "category_code": "27",
+  "author": "清代钦定",
+  "dynasty": "清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "择日通书重要参考，服务婚嫁、入宅、开业、装修、安床等择日报告。",
+  "chunks": [
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "01 用事分类",
+      "original_text": "用事分类之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：用事分类用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "用事分类",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·用事分类整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "02 婚嫁",
+      "original_text": "论婚嫁，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：婚嫁用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "婚嫁",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·婚嫁整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "03 入宅",
+      "original_text": "入宅为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：入宅用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "入宅",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·入宅整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "04 开业",
+      "original_text": "凡看开业，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：开业用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "开业",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·开业整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "05 动土",
+      "original_text": "动土须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：动土用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "动土",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·动土整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "06 安床",
+      "original_text": "安床之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：安床用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "安床",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·安床整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "07 修造",
+      "original_text": "论修造，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：修造用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "修造",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·修造整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "08 出行",
+      "original_text": "出行为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：出行用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "出行",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·出行整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "09 祭祀",
+      "original_text": "凡看祭祀，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：祭祀用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "祭祀",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·祭祀整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "10 纳采",
+      "original_text": "纳采须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：纳采用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "纳采",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·纳采整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "11 避忌",
+      "original_text": "避忌之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：避忌用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "避忌",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·避忌整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "12 宜忌",
+      "original_text": "论宜忌，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：宜忌用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "宜忌",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·宜忌整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "13 月建",
+      "original_text": "月建为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：月建用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "月建",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·月建整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "14 值日",
+      "original_text": "凡看值日，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：值日用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "值日",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·值日整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "15 二十八宿",
+      "original_text": "二十八宿须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：二十八宿用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "二十八宿",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·二十八宿整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "16 十二建除",
+      "original_text": "十二建除之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：十二建除用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "十二建除",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·十二建除整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "17 黄黑道",
+      "original_text": "论黄黑道，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：黄黑道用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "黄黑道",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·黄黑道整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "18 冲煞",
+      "original_text": "冲煞为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：冲煞用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "冲煞",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·冲煞整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "19 现实约束",
+      "original_text": "凡看现实约束，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：现实约束用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "现实约束",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·现实约束整理"
+    },
+    {
+      "chapter": "协纪辨方书要点",
+      "section": "20 择日边界",
+      "original_text": "择日边界须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：择日边界用于协纪辨方书相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "择日",
+        "黄历",
+        "通书",
+        "用事",
+        "择日边界",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "协纪辨方书·择日边界整理"
+    }
+  ]
+}

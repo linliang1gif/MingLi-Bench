@@ -3,6 +3,7 @@ import { Select, Spin, Empty, Button, Space, Alert } from 'antd';
 import { ReloadOutlined } from '@ant-design/icons';
 import { useNavigate, useParams } from 'react-router-dom';
 import api from '../services/api';
+import AnalysisModeSelector from '../components/AnalysisModeSelector';
 import PageBanner from '../components/PageBanner';
 import PaperCard from '../components/PaperCard';
 
@@ -13,6 +14,8 @@ export default function ChartAnalysis() {
   const [activeId, setActiveId] = useState(subjectIdInUrl ? Number(subjectIdInUrl) : null);
   const [chart, setChart] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [analysisMode, setAnalysisMode] = useState('safe');
+  const [reportBusy, setReportBusy] = useState(false);
 
   useEffect(() => {
     api.listSubjects().then((rows) => {
@@ -53,6 +56,27 @@ export default function ChartAnalysis() {
               }}
             >
               重新推算
+            </Button>
+            <AnalysisModeSelector value={analysisMode} onChange={setAnalysisMode} />
+            <Button
+              type="primary"
+              disabled={!activeId}
+              loading={reportBusy}
+              onClick={async () => {
+                setReportBusy(true);
+                try {
+                  const report = await api.generateReport({
+                    subjectId: activeId,
+                    reportType: 'general',
+                    analysisMode,
+                  });
+                  nav(`/reports/${report.id}`);
+                } finally {
+                  setReportBusy(false);
+                }
+              }}
+            >
+              生成命盘解读
             </Button>
           </Space>
         }

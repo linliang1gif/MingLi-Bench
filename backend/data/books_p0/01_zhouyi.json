@@ -1,0 +1,433 @@
+{
+  "title": "周易",
+  "alias": "易经",
+  "category_code": "01",
+  "author": "佚名",
+  "dynasty": "周",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "A",
+  "risk_level": "medium",
+  "description": "易学基础经典，提供阴阳、八卦、取象、变化与传统哲学引用。",
+  "chunks": [
+    {
+      "chapter": "周易要点",
+      "section": "01 乾坤",
+      "original_text": "乾坤之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：乾坤用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "乾坤",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·乾坤整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "02 阴阳",
+      "original_text": "论阴阳，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：阴阳用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "naming"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·阴阳整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "03 八卦",
+      "original_text": "八卦为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：八卦用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·八卦整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "04 变易",
+      "original_text": "凡看变易，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：变易用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "变易",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·变易整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "05 简易",
+      "original_text": "简易须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：简易用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "简易",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·简易整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "06 不易",
+      "original_text": "不易之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：不易用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "不易",
+        "naming"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·不易整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "07 象辞",
+      "original_text": "论象辞，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：象辞用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "象辞",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·象辞整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "08 爻位",
+      "original_text": "爻位为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：爻位用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "爻位",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·爻位整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "09 中正",
+      "original_text": "凡看中正，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：中正用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "中正",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·中正整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "10 应比",
+      "original_text": "应比须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：应比用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "应比",
+        "naming"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·应比整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "11 吉凶悔吝",
+      "original_text": "吉凶悔吝之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：吉凶悔吝用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "吉凶悔吝",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·吉凶悔吝整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "12 元亨利贞",
+      "original_text": "论元亨利贞，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：元亨利贞用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "元亨利贞",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·元亨利贞整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "13 天地定位",
+      "original_text": "天地定位为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：天地定位用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "天地定位",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·天地定位整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "14 水火既济",
+      "original_text": "凡看水火既济，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：水火既济用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "水火既济",
+        "naming"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·水火既济整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "15 山泽通气",
+      "original_text": "山泽通气须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：山泽通气用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "山泽通气",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·山泽通气整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "16 雷风相薄",
+      "original_text": "雷风相薄之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：雷风相薄用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "雷风相薄",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·雷风相薄整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "17 观象",
+      "original_text": "论观象，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：观象用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "观象",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·观象整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "18 取义",
+      "original_text": "取义为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：取义用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "取义",
+        "naming"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·取义整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "19 修省",
+      "original_text": "凡看修省，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：修省用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "修省",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·修省整理"
+    },
+    {
+      "chapter": "周易要点",
+      "section": "20 守正",
+      "original_text": "守正须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：守正用于周易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "易经",
+        "阴阳",
+        "八卦",
+        "取象",
+        "守正",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "naming_report",
+        "bazi_report",
+        "knowledge"
+      ],
+      "source_ref": "周易·守正整理"
+    }
+  ]
+}

@@ -16,6 +16,18 @@ _COLUMN_MIGRATIONS = {
     "subjects": [
         ("longitude", "REAL"),
     ],
+    "chat_messages": [
+        ("risk_check_result", "TEXT"),
+    ],
+    "reports": [
+        ("house_id", "INTEGER"),
+    ],
+    "knowledge_books": [
+        ("copyright_status", "TEXT"),
+    ],
+    "report_versions": [
+        ("references_json", "TEXT"),
+    ],
 }
 
 

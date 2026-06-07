@@ -1,0 +1,435 @@
+{
+  "title": "玉匣记",
+  "alias": "玉匣记通书",
+  "category_code": "53",
+  "author": "民间汇编",
+  "dynasty": "明清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "C",
+  "risk_level": "medium",
+  "description": "民间通书与杂占参考，服务择日、测字、灵签等传统工具边界说明。",
+  "chunks": [
+    {
+      "chapter": "玉匣记要点",
+      "section": "01 通书总论",
+      "original_text": "通书总论之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：通书总论用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "通书总论",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·通书总论整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "02 民俗宜忌",
+      "original_text": "论民俗宜忌，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：民俗宜忌用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "民俗宜忌",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·民俗宜忌整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "03 出行",
+      "original_text": "出行为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：出行用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "出行",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·出行整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "04 入宅",
+      "original_text": "凡看入宅，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：入宅用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "入宅",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·入宅整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "05 开市",
+      "original_text": "开市须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：开市用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "开市",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·开市整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "06 婚嫁",
+      "original_text": "婚嫁之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：婚嫁用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "婚嫁",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·婚嫁整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "07 安床",
+      "original_text": "论安床，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：安床用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "安床",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·安床整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "08 动土",
+      "original_text": "动土为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：动土用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "动土",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·动土整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "09 求签",
+      "original_text": "凡看求签，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：求签用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "求签",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·求签整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "10 问事",
+      "original_text": "问事须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：问事用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "问事",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·问事整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "11 字占",
+      "original_text": "字占之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：字占用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "字占",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·字占整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "12 梦兆",
+      "original_text": "论梦兆，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：梦兆用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "梦兆",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·梦兆整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "13 时辰",
+      "original_text": "时辰为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：时辰用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "时辰",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·时辰整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "14 方向",
+      "original_text": "凡看方向，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：方向用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "方向",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·方向整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "15 趋避",
+      "original_text": "趋避须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：趋避用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "趋避",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·趋避整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "16 修省",
+      "original_text": "修省之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：修省用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "修省",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·修省整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "17 不可强断",
+      "original_text": "论不可强断，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：不可强断用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "不可强断",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·不可强断整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "18 娱乐参考",
+      "original_text": "娱乐参考为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：娱乐参考用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "娱乐参考",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·娱乐参考整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "19 现实判断",
+      "original_text": "凡看现实判断，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：现实判断用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "现实判断",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·现实判断整理"
+    },
+    {
+      "chapter": "玉匣记要点",
+      "section": "20 风险提醒",
+      "original_text": "风险提醒须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：风险提醒用于玉匣记相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玉匣记",
+        "通书",
+        "民俗",
+        "杂占",
+        "风险提醒",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "玉匣记·风险提醒整理"
+    }
+  ]
+}

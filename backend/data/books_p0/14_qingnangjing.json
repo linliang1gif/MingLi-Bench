@@ -1,0 +1,434 @@
+{
+  "title": "青囊经",
+  "alias": "青囊奥语",
+  "category_code": "11",
+  "author": "佚名",
+  "dynasty": "古传",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "理气派与三元风水基础参考，服务玄空、三元与罗盘说明。",
+  "chunks": [
+    {
+      "chapter": "青囊经要点",
+      "section": "01 理气总论",
+      "original_text": "理气总论之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：理气总论用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "理气总论",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·理气总论整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "02 阴阳顺逆",
+      "original_text": "论阴阳顺逆，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：阴阳顺逆用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "阴阳顺逆",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·阴阳顺逆整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "03 河图",
+      "original_text": "河图为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：河图用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "河图",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·河图整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "04 洛书",
+      "original_text": "凡看洛书，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：洛书用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "洛书",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·洛书整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "05 三元",
+      "original_text": "三元须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：三元用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·三元整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "06 九运",
+      "original_text": "九运之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：九运用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "九运",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·九运整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "07 二十四山",
+      "original_text": "论二十四山，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：二十四山用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "二十四山",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·二十四山整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "08 山向",
+      "original_text": "山向为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：山向用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "山向",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·山向整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "09 生旺衰死",
+      "original_text": "凡看生旺衰死，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：生旺衰死用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "生旺衰死",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·生旺衰死整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "10 龙水向",
+      "original_text": "龙水向须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：龙水向用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "龙水向",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·龙水向整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "11 形理兼看",
+      "original_text": "形理兼看之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：形理兼看用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "形理兼看",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·形理兼看整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "12 先后天",
+      "original_text": "论先后天，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：先后天用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "先后天",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·先后天整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "13 纳甲",
+      "original_text": "纳甲为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：纳甲用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "纳甲",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·纳甲整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "14 挨星",
+      "original_text": "凡看挨星，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：挨星用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "挨星",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·挨星整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "15 玄空基础",
+      "original_text": "玄空基础须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：玄空基础用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "玄空基础",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·玄空基础整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "16 时运",
+      "original_text": "时运之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：时运用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "时运",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·时运整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "17 方位",
+      "original_text": "论方位，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：方位用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "方位",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·方位整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "18 气口",
+      "original_text": "气口为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：气口用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "气口",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·气口整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "19 水法",
+      "original_text": "凡看水法，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：水法用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "水法",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·水法整理"
+    },
+    {
+      "chapter": "青囊经要点",
+      "section": "20 不可执一",
+      "original_text": "不可执一须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：不可执一用于青囊经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "青囊",
+        "理气",
+        "三元",
+        "罗盘",
+        "不可执一",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "青囊经·不可执一整理"
+    }
+  ]
+}

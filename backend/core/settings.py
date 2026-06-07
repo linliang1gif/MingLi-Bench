@@ -61,7 +61,12 @@ class Settings:
 
     @property
     def cors_origin_list(self) -> List[str]:
-        return list(self.cors_origins)
+        extra = [
+            item.strip()
+            for item in os.getenv("CORS_ORIGINS", "").split(",")
+            if item.strip()
+        ]
+        return list(dict.fromkeys([*self.cors_origins, *extra]))
 
 
 settings = Settings()

@@ -17,13 +17,30 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .api import (
+    category_routes,
     chart_routes,
     chat_routes,
+    compass_routes,
+    date_selection_routes,
+    divination_routes,
     feedback_routes,
+    fengshui_photo_routes,
+    fengshui_routes,
     health_routes,
     history_routes,
+    house_routes,
+    knowledge_import_routes,
+    knowledge_routes,
+    landscape_photo_routes,
+    naming_routes,
+    prompt_routes,
     report_routes,
+    risk_routes,
     subject_routes,
+    system_routes,
+    tianxing_routes,
+    xuankong_routes,
+    yinzhai_routes,
 )
 from .core.settings import settings
 from .db.init_db import init_db
@@ -51,8 +68,9 @@ def create_app() -> FastAPI:
     app.add_middleware(
         CORSMiddleware,
         allow_origins=settings.cors_origin_list,
+        allow_origin_regex=r"http://(localhost|127\.0\.0\.1|192\.168\.\d+\.\d+|10\.\d+\.\d+\.\d+|172\.(1[6-9]|2\d|3[0-1])\.\d+\.\d+):5173",
         allow_credentials=False,
-        allow_methods=["GET", "POST", "DELETE", "OPTIONS"],
+        allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         allow_headers=["*"],
     )
 
@@ -63,6 +81,23 @@ def create_app() -> FastAPI:
     app.include_router(report_routes.router)
     app.include_router(history_routes.router)
     app.include_router(feedback_routes.router)
+    app.include_router(fengshui_routes.router)
+    app.include_router(fengshui_photo_routes.router)
+    app.include_router(landscape_photo_routes.router)
+    app.include_router(category_routes.router)
+    app.include_router(knowledge_routes.router)
+    app.include_router(knowledge_import_routes.router)
+    app.include_router(prompt_routes.router)
+    app.include_router(risk_routes.router)
+    app.include_router(house_routes.router)
+    app.include_router(compass_routes.router)
+    app.include_router(date_selection_routes.router)
+    app.include_router(naming_routes.router)
+    app.include_router(divination_routes.router)
+    app.include_router(system_routes.router)
+    app.include_router(xuankong_routes.router)
+    app.include_router(yinzhai_routes.router)
+    app.include_router(tianxing_routes.router)
 
     return app
 

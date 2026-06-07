@@ -1,0 +1,435 @@
+{
+  "title": "地理五诀",
+  "alias": "地理五诀辑要",
+  "category_code": "19",
+  "author": "赵九峰",
+  "dynasty": "清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "龙穴砂水向五项框架，服务阴宅、形势与水法风水学习。",
+  "chunks": [
+    {
+      "chapter": "地理五诀要点",
+      "section": "01 龙",
+      "original_text": "龙之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：龙用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "龙",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·龙整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "02 穴",
+      "original_text": "论穴，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：穴用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "穴",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·穴整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "03 砂",
+      "original_text": "砂为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：砂用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "砂",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·砂整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "04 水",
+      "original_text": "凡看水，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：水用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "水",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·水整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "05 向",
+      "original_text": "向须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：向用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "向",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·向整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "06 审龙",
+      "original_text": "审龙之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：审龙用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "审龙",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·审龙整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "07 点穴",
+      "original_text": "论点穴，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：点穴用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "点穴",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·点穴整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "08 察砂",
+      "original_text": "察砂为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：察砂用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "察砂",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·察砂整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "09 观水",
+      "original_text": "凡看观水，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：观水用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "观水",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·观水整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "10 立向",
+      "original_text": "立向须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：立向用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "立向",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·立向整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "11 明堂水",
+      "original_text": "明堂水之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：明堂水用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "明堂水",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·明堂水整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "12 水口",
+      "original_text": "论水口，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：水口用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "水口",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·水口整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "13 来水去水",
+      "original_text": "来水去水为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：来水去水用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "来水去水",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·来水去水整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "14 左水倒右",
+      "original_text": "凡看左水倒右，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：左水倒右用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "左水倒右",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·左水倒右整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "15 右水倒左",
+      "original_text": "右水倒左须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：右水倒左用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "右水倒左",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·右水倒左整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "16 山水有情",
+      "original_text": "山水有情之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：山水有情用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "山水有情",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·山水有情整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "17 局法",
+      "original_text": "论局法，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：局法用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "局法",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·局法整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "18 朝案",
+      "original_text": "朝案为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：朝案用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "朝案",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·朝案整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "19 关拦",
+      "original_text": "凡看关拦，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：关拦用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "关拦",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·关拦整理"
+    },
+    {
+      "chapter": "地理五诀要点",
+      "section": "20 形理合参",
+      "original_text": "形理合参须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：形理合参用于地理五诀相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "地理五诀",
+        "龙穴砂水向",
+        "水法",
+        "形势",
+        "形理合参",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "地理五诀·形理合参整理"
+    }
+  ]
+}

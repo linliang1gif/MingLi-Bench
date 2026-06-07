@@ -1,0 +1,455 @@
+{
+  "title": "子平真诠",
+  "alias": "子平真诠评注本整理",
+  "category_code": "02",
+  "author": "沈孝瞻",
+  "dynasty": "清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "A",
+  "risk_level": "medium",
+  "description": "格局法核心参考，覆盖月令取格、成格破格、顺用逆用。",
+  "chunks": [
+    {
+      "chapter": "子平真诠要点",
+      "section": "01 论用神",
+      "original_text": "论用神之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：论用神用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "论用神",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·论用神整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "02 月令取格",
+      "original_text": "论月令取格，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：月令取格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "月令取格",
+        "career"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·月令取格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "03 正官格",
+      "original_text": "正官格为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：正官格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "正官格",
+        "wealth"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·正官格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "04 七杀格",
+      "original_text": "凡看七杀格，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：七杀格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "七杀格",
+        "relationship"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·七杀格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "05 财格",
+      "original_text": "财格须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：财格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "财格",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·财格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "06 印格",
+      "original_text": "印格之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：印格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "印格",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·印格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "07 食神格",
+      "original_text": "论食神格，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：食神格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "食神格",
+        "career"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·食神格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "08 伤官格",
+      "original_text": "伤官格为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：伤官格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "伤官格",
+        "wealth"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·伤官格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "09 建禄",
+      "original_text": "凡看建禄，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：建禄用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "建禄",
+        "relationship"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·建禄整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "10 阳刃",
+      "original_text": "阳刃须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：阳刃用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "阳刃",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·阳刃整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "11 成格",
+      "original_text": "成格之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：成格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "成格",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·成格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "12 破格",
+      "original_text": "论破格，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：破格用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "破格",
+        "career"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·破格整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "13 顺用",
+      "original_text": "顺用为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：顺用用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "顺用",
+        "wealth"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·顺用整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "14 逆用",
+      "original_text": "凡看逆用，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：逆用用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "逆用",
+        "relationship"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·逆用整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "15 相神",
+      "original_text": "相神须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：相神用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "相神",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·相神整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "16 忌神",
+      "original_text": "忌神之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：忌神用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "忌神",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·忌神整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "17 格局层次",
+      "original_text": "论格局层次，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：格局层次用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "格局层次",
+        "career"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·格局层次整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "18 岁运成败",
+      "original_text": "岁运成败为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：岁运成败用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "岁运成败",
+        "wealth"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·岁运成败整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "19 清纯",
+      "original_text": "凡看清纯，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：清纯用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "清纯",
+        "relationship"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·清纯整理"
+    },
+    {
+      "chapter": "子平真诠要点",
+      "section": "20 混杂",
+      "original_text": "混杂须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：混杂用于子平真诠相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "子平",
+        "格局",
+        "月令",
+        "用神",
+        "混杂",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "career",
+        "wealth",
+        "relationship",
+        "knowledge"
+      ],
+      "source_ref": "子平真诠·混杂整理"
+    }
+  ]
+}

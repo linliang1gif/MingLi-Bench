@@ -1,0 +1,415 @@
+{
+  "title": "穷通宝鉴",
+  "alias": "栏江网",
+  "category_code": "31",
+  "author": "余春台",
+  "dynasty": "清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "A",
+  "risk_level": "medium",
+  "description": "调候用神重要参考，服务八字、五行起名与季节寒暖说明。",
+  "chunks": [
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "01 甲木调候",
+      "original_text": "甲木调候之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：甲木调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "甲木调候",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·甲木调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "02 乙木调候",
+      "original_text": "论乙木调候，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：乙木调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "乙木调候",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·乙木调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "03 丙火调候",
+      "original_text": "丙火调候为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：丙火调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "丙火调候",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·丙火调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "04 丁火调候",
+      "original_text": "凡看丁火调候，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：丁火调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "丁火调候",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·丁火调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "05 戊土调候",
+      "original_text": "戊土调候须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：戊土调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "戊土调候",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·戊土调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "06 己土调候",
+      "original_text": "己土调候之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：己土调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "己土调候",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·己土调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "07 庚金调候",
+      "original_text": "论庚金调候，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：庚金调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "庚金调候",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·庚金调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "08 辛金调候",
+      "original_text": "辛金调候为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：辛金调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "辛金调候",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·辛金调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "09 壬水调候",
+      "original_text": "凡看壬水调候，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：壬水调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "壬水调候",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·壬水调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "10 癸水调候",
+      "original_text": "癸水调候须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：癸水调候用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "癸水调候",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·癸水调候整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "11 春令",
+      "original_text": "春令之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：春令用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "春令",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·春令整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "12 夏令",
+      "original_text": "论夏令，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：夏令用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "夏令",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·夏令整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "13 秋令",
+      "original_text": "秋令为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：秋令用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "秋令",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·秋令整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "14 冬令",
+      "original_text": "凡看冬令，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：冬令用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "冬令",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·冬令整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "15 寒暖",
+      "original_text": "寒暖须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：寒暖用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "寒暖",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·寒暖整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "16 燥湿",
+      "original_text": "燥湿之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：燥湿用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "燥湿",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·燥湿整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "17 水火",
+      "original_text": "论水火，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：水火用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "水火",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·水火整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "18 木火通明",
+      "original_text": "木火通明为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：木火通明用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "木火通明",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·木火通明整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "19 金水相涵",
+      "original_text": "凡看金水相涵，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：金水相涵用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "金水相涵",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·金水相涵整理"
+    },
+    {
+      "chapter": "穷通宝鉴要点",
+      "section": "20 五行平衡",
+      "original_text": "五行平衡须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：五行平衡用于穷通宝鉴相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "调候",
+        "五行",
+        "用神",
+        "季节",
+        "五行平衡",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "穷通宝鉴·五行平衡整理"
+    }
+  ]
+}

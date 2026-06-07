@@ -1,0 +1,414 @@
+{
+  "title": "八宅明镜",
+  "alias": "八宅法明镜",
+  "category_code": "15",
+  "author": "箬冠道人",
+  "dynasty": "清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "八宅法常用参考，覆盖东西四宅、命卦、门灶床和方位宜忌。",
+  "chunks": [
+    {
+      "chapter": "八宅明镜要点",
+      "section": "01 东西四宅",
+      "original_text": "东西四宅之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：东西四宅用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "东西四宅",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·东西四宅整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "02 命卦",
+      "original_text": "论命卦，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：命卦用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·命卦整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "03 伏位",
+      "original_text": "伏位为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：伏位用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "伏位",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·伏位整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "04 生气",
+      "original_text": "凡看生气，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：生气用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "生气",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·生气整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "05 天医",
+      "original_text": "天医须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：天医用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "天医",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·天医整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "06 延年",
+      "original_text": "延年之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：延年用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "延年",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·延年整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "07 绝命",
+      "original_text": "论绝命，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：绝命用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "绝命",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·绝命整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "08 五鬼",
+      "original_text": "五鬼为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：五鬼用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "五鬼",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·五鬼整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "09 六煞",
+      "original_text": "凡看六煞，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：六煞用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "六煞",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·六煞整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "10 祸害",
+      "original_text": "祸害须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：祸害用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "祸害",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·祸害整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "11 门向",
+      "original_text": "门向之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：门向用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "门向",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·门向整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "12 灶向",
+      "original_text": "论灶向，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：灶向用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "灶向",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·灶向整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "13 床位",
+      "original_text": "床位为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：床位用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "床位",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·床位整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "14 书桌",
+      "original_text": "凡看书桌，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：书桌用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "书桌",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·书桌整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "15 厅堂",
+      "original_text": "厅堂须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：厅堂用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "厅堂",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·厅堂整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "16 宅命相配",
+      "original_text": "宅命相配之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：宅命相配用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "宅命相配",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·宅命相配整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "17 方位取舍",
+      "original_text": "论方位取舍，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：方位取舍用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "方位取舍",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·方位取舍整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "18 现代转译",
+      "original_text": "现代转译为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：现代转译用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "现代转译",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·现代转译整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "19 动线",
+      "original_text": "凡看动线，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：动线用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "动线",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·动线整理"
+    },
+    {
+      "chapter": "八宅明镜要点",
+      "section": "20 风险边界",
+      "original_text": "风险边界须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：风险边界用于八宅明镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八宅",
+        "命卦",
+        "方位",
+        "阳宅",
+        "风险边界",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "八宅明镜·风险边界整理"
+    }
+  ]
+}

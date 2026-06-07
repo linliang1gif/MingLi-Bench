@@ -12,7 +12,15 @@ from sqlalchemy.orm import Session
 
 from ..db.models import Chart, ChatMessage, ChatSession, Subject
 from ..db.session import SessionLocal, get_db
-from ..services import chart_service, llm_service, prompt_service, subject_service
+from ..domain import landscape_photo_rules
+from ..services import (
+    analysis_mode_service,
+    chart_service,
+    llm_service,
+    prompt_service,
+    risk_service,
+    subject_service,
+)
 
 router = APIRouter(prefix="/api", tags=["chat"])
 
@@ -21,6 +29,7 @@ class ChatRequest(BaseModel):
     subject_id: int
     session_id: Optional[int] = None
     message: str = Field(..., min_length=1)
+    analysis_mode: str = "safe"
 
 
 def _ensure_session(db: Session, subject_id: int, session_id: Optional[int]) -> ChatSession:
@@ -54,6 +63,7 @@ def _build_chart_for_subject(db: Session, subject: Dict[str, Any]) -> Optional[D
 
 @router.post("/chat")
 def chat(payload: ChatRequest, db: Session = Depends(get_db)) -> Dict[str, Any]:
+    analysis_mode = analysis_mode_service.validate_analysis_mode(payload.analysis_mode)
     subject = subject_service.get_subject(db, payload.subject_id)
     if not subject:
         raise HTTPException(status_code=404, detail="subject not found")
@@ -66,6 +76,38 @@ def chat(payload: ChatRequest, db: Session = Depends(get_db)) -> Dict[str, Any]:
     db.add(user_msg)
     db.commit()
     db.refresh(user_msg)
+
+    if landscape_photo_rules.is_forbidden_heritage_request(payload.message):
+        reply = prompt_service.append_mode_warning(
+            landscape_photo_rules.HERITAGE_BLOCKED_REPLY,
+            analysis_mode,
+        )
+        risk = risk_service.check_text(db, reply, analysis_mode=analysis_mode)
+        reply = risk_service.final_text_for_mode(reply, risk)
+        asst = ChatMessage(
+            session_id=session.id,
+            role="assistant",
+            content=reply,
+            risk_check_result=json.dumps(risk, ensure_ascii=False),
+        )
+        db.add(asst)
+        if not session.title:
+            session.title = (payload.message or "对话").strip()[:32]
+        db.commit()
+        db.refresh(asst)
+        db.refresh(session)
+        return {
+            "session_id": session.id,
+            "session_title": session.title,
+            "message_id": asst.id,
+            "user_message_id": user_msg.id,
+            "reply": reply,
+            "provider": "policy",
+            "model": None,
+            "ok": True,
+            "analysis_mode": analysis_mode,
+            "risk_check_result": risk,
+        }
 
     # 取最近若干条历史（最多 12 条），用于 LLM 多轮上下文
     recent: List[ChatMessage] = (
@@ -83,18 +125,42 @@ def chat(payload: ChatRequest, db: Session = Depends(get_db)) -> Dict[str, Any]:
         if history:
             history[0] = {"role": "user", "content": ctx_block + "\n" + history[0]["content"]}
 
-    llm = llm_service.chat_complete(messages=history, max_tokens=4096, temperature=0.5)
+    chat_template = prompt_service.get_db_template(db, "chat")
+    chat_system_prompt = prompt_service.get_system_prompt(analysis_mode, module="bazi")
+    if chat_template:
+        rendered = prompt_service.render_db_template(
+            chat_template,
+            {"message": payload.message, "analysis_mode": analysis_mode},
+        )
+        chat_system_prompt = rendered["system_prompt"] or None
+
+    llm = llm_service.chat_complete(
+        system_prompt=chat_system_prompt,
+        messages=history,
+        max_tokens=4096,
+        temperature=0.5,
+    )
 
     if llm["ok"]:
-        reply = llm["content"]
+        reply = prompt_service.append_mode_warning(llm["content"], analysis_mode)
     else:
-        reply = prompt_service.append_disclaimer(
-            "很抱歉，AI 暂时不可用（错误：{}）。请检查 .env 中的 API Key 后重试。".format(
-                llm.get("error") or "unknown"
-            )
+        reply = prompt_service.append_mode_warning(
+            prompt_service.append_disclaimer(
+                "很抱歉，AI 暂时不可用（错误：{}）。请检查 .env 中的 API Key 后重试。".format(
+                    llm.get("error") or "unknown"
+                )
+            ),
+            analysis_mode,
         )
 
-    asst = ChatMessage(session_id=session.id, role="assistant", content=reply)
+    risk = risk_service.check_text(db, reply, analysis_mode=analysis_mode)
+    reply = risk_service.final_text_for_mode(reply, risk)
+    asst = ChatMessage(
+        session_id=session.id,
+        role="assistant",
+        content=reply,
+        risk_check_result=json.dumps(risk, ensure_ascii=False),
+    )
     db.add(asst)
 
     if not session.title:
@@ -112,6 +178,8 @@ def chat(payload: ChatRequest, db: Session = Depends(get_db)) -> Dict[str, Any]:
         "provider": llm.get("provider"),
         "model": llm.get("model"),
         "ok": llm["ok"],
+        "analysis_mode": analysis_mode,
+        "risk_check_result": risk,
     }
 
 
@@ -202,6 +270,7 @@ def chat_stream(payload: ChatRequest):
         error  { error }
     """
     # 第一阶段：在请求线程内同步完成「鉴权 / 命主 / 会话 / 命盘 / 用户消息持久化」
+    analysis_mode = analysis_mode_service.validate_analysis_mode(payload.analysis_mode)
     db = SessionLocal()
     try:
         subject = subject_service.get_subject(db, payload.subject_id)
@@ -221,6 +290,60 @@ def chat_stream(payload: ChatRequest):
             db.commit()
             db.refresh(session)
 
+        if landscape_photo_rules.is_forbidden_heritage_request(payload.message):
+            session_id = session.id
+            current_title = session.title
+            user_message_id = user_msg.id
+            blocked_reply = prompt_service.append_mode_warning(
+                landscape_photo_rules.HERITAGE_BLOCKED_REPLY,
+                analysis_mode,
+            )
+            risk = risk_service.check_text(db, blocked_reply, analysis_mode=analysis_mode)
+            blocked_reply = risk_service.final_text_for_mode(blocked_reply, risk)
+            asst = ChatMessage(
+                session_id=session.id,
+                role="assistant",
+                content=blocked_reply,
+                risk_check_result=json.dumps(risk, ensure_ascii=False),
+            )
+            db.add(asst)
+            db.commit()
+            db.refresh(asst)
+            message_id = asst.id
+            db.close()
+
+            def blocked_event_generator():
+                yield _sse("meta", {
+                    "session_id": session_id,
+                    "subject_id": payload.subject_id,
+                    "title": current_title,
+                    "provider": "policy",
+                    "model": None,
+                    "analysis_mode": analysis_mode,
+                })
+                yield _sse("delta", {"content": blocked_reply})
+                yield _sse("done", {
+                    "message_id": message_id,
+                    "user_message_id": user_message_id,
+                    "ok": True,
+                    "title": current_title,
+                    "provider": "policy",
+                    "model": None,
+                    "content": blocked_reply,
+                    "analysis_mode": analysis_mode,
+                    "risk_check_result": risk,
+                })
+
+            return StreamingResponse(
+                blocked_event_generator(),
+                media_type="text/event-stream",
+                headers={
+                    "Cache-Control": "no-cache",
+                    "X-Accel-Buffering": "no",
+                    "Connection": "keep-alive",
+                },
+            )
+
         recent: List[ChatMessage] = (
             db.query(ChatMessage)
             .filter(ChatMessage.session_id == session.id)
@@ -228,6 +351,14 @@ def chat_stream(payload: ChatRequest):
             .all()[-12:]
         )
         llm_history = _build_history_for_llm(recent, subject, chart)
+        chat_template = prompt_service.get_db_template(db, "chat")
+        chat_system_prompt = prompt_service.get_system_prompt(analysis_mode, module="bazi")
+        if chat_template:
+            rendered = prompt_service.render_db_template(
+                chat_template,
+                {"message": payload.message, "analysis_mode": analysis_mode},
+            )
+            chat_system_prompt = rendered["system_prompt"] or None
         session_id = session.id
         current_title = session.title
     finally:
@@ -239,6 +370,7 @@ def chat_stream(payload: ChatRequest):
             "session_id": session_id,
             "subject_id": payload.subject_id,
             "title": current_title,
+            "analysis_mode": analysis_mode,
         })
 
         # 流式调用 LLM
@@ -246,6 +378,7 @@ def chat_stream(payload: ChatRequest):
         had_error: Optional[str] = None
         meta_provider, meta_model = None, None
         for piece in llm_service.chat_complete_stream(messages=llm_history,
+                                                     system_prompt=chat_system_prompt,
                                                      max_tokens=4096,
                                                      temperature=0.5):
             ev = piece.get("event")
@@ -256,6 +389,7 @@ def chat_stream(payload: ChatRequest):
                     "session_id": session_id,
                     "provider": meta_provider,
                     "model": meta_model,
+                    "analysis_mode": analysis_mode,
                 })
             elif ev == "delta":
                 content = piece.get("content") or ""
@@ -270,32 +404,58 @@ def chat_stream(payload: ChatRequest):
 
         if had_error:
             # 写入降级文案，前端也已收到 error 事件
-            fallback = prompt_service.append_disclaimer(
-                f"很抱歉，AI 暂时不可用（错误：{had_error}）。请稍后再试。"
+            fallback = prompt_service.append_mode_warning(
+                prompt_service.append_disclaimer(
+                    f"很抱歉，AI 暂时不可用（错误：{had_error}）。请稍后再试。"
+                ),
+                analysis_mode,
             )
             db2 = SessionLocal()
             try:
-                asst = ChatMessage(session_id=session_id, role="assistant", content=fallback)
+                risk = risk_service.check_text(db2, fallback, analysis_mode=analysis_mode)
+                fallback = risk_service.final_text_for_mode(fallback, risk)
+                asst = ChatMessage(
+                    session_id=session_id,
+                    role="assistant",
+                    content=fallback,
+                    risk_check_result=json.dumps(risk, ensure_ascii=False),
+                )
                 db2.add(asst)
                 sess_obj = db2.get(ChatSession, session_id)
                 if sess_obj:
                     sess_obj.updated_at = func.now()
                 db2.commit(); db2.refresh(asst)
-                yield _sse("done", {"message_id": asst.id, "ok": False, "title": current_title})
+                yield _sse("done", {
+                    "message_id": asst.id,
+                    "ok": False,
+                    "title": current_title,
+                    "content": fallback,
+                    "analysis_mode": analysis_mode,
+                    "risk_check_result": risk,
+                })
             finally:
                 db2.close()
             return
 
         # 追加免责声明（作为最后一段 delta，便于前端原样累积）
-        disclaimer_tail = prompt_service.append_disclaimer(full_text)[len(full_text):]
-        if disclaimer_tail:
-            yield _sse("delta", {"content": disclaimer_tail})
-
-        final_text = full_text + disclaimer_tail
+        final_text = prompt_service.append_mode_warning(
+            prompt_service.append_disclaimer(full_text),
+            analysis_mode,
+        )
+        final_tail = final_text[len(full_text):] if final_text.startswith(full_text) else ""
+        if final_tail:
+            yield _sse("delta", {"content": final_tail})
         # 落库 + done
         db2 = SessionLocal()
         try:
-            asst = ChatMessage(session_id=session_id, role="assistant", content=final_text)
+            risk = risk_service.check_text(db2, final_text, analysis_mode=analysis_mode)
+            final_text = risk_service.final_text_for_mode(final_text, risk)
+            asst = ChatMessage(
+                session_id=session_id,
+                role="assistant",
+                content=final_text,
+                risk_check_result=json.dumps(risk, ensure_ascii=False),
+            )
             db2.add(asst)
             # 触发 session.updated_at 以确保最新对话排在前面
             sess_obj = db2.get(ChatSession, session_id)
@@ -309,6 +469,9 @@ def chat_stream(payload: ChatRequest):
                 "title": current_title,
                 "provider": meta_provider,
                 "model": meta_model,
+                "content": final_text,
+                "analysis_mode": analysis_mode,
+                "risk_check_result": risk,
             })
         finally:
             db2.close()
@@ -351,6 +514,7 @@ def get_session(session_id: int, db: Session = Depends(get_db)) -> Dict[str, Any
                 "id": m.id,
                 "role": m.role,
                 "content": m.content,
+                "risk_check_result": json.loads(m.risk_check_result) if m.risk_check_result else None,
                 "created_at": m.created_at.isoformat() if m.created_at else None,
             }
             for m in msgs

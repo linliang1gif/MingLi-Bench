@@ -1,0 +1,395 @@
+{
+  "title": "选择宗镜",
+  "alias": "选择宗镜辑要",
+  "category_code": "26",
+  "author": "佚名",
+  "dynasty": "明清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "择日原则和用事分类参考，补充动工、入宅和婚嫁择日引用。",
+  "chunks": [
+    {
+      "chapter": "选择宗镜要点",
+      "section": "01 选择总论",
+      "original_text": "选择总论之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：选择总论用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "选择总论",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·选择总论整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "02 审事之宜",
+      "original_text": "论审事之宜，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：审事之宜用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "审事之宜",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·审事之宜整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "03 婚嫁择日",
+      "original_text": "婚嫁择日为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：婚嫁择日用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "婚嫁择日",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·婚嫁择日整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "04 入宅择日",
+      "original_text": "凡看入宅择日，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：入宅择日用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "入宅择日",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·入宅择日整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "05 开市择日",
+      "original_text": "开市择日须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：开市择日用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "开市择日",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·开市择日整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "06 修造择日",
+      "original_text": "修造择日之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：修造择日用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "修造择日",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·修造择日整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "07 安床择日",
+      "original_text": "论安床择日，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：安床择日用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "安床择日",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·安床择日整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "08 吉神",
+      "original_text": "吉神为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：吉神用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "吉神",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·吉神整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "09 凶煞",
+      "original_text": "凡看凶煞，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：凶煞用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "凶煞",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·凶煞整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "10 岁破",
+      "original_text": "岁破须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：岁破用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "岁破",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·岁破整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "11 月破",
+      "original_text": "月破之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：月破用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "月破",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·月破整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "12 三煞",
+      "original_text": "论三煞，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：三煞用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "三煞",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·三煞整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "13 天德",
+      "original_text": "天德为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：天德用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "天德",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·天德整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "14 月德",
+      "original_text": "凡看月德，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：月德用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "月德",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·月德整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "15 六合",
+      "original_text": "六合须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：六合用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "六合",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·六合整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "16 三合",
+      "original_text": "三合之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：三合用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "三合",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·三合整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "17 值神",
+      "original_text": "论值神，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：值神用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "值神",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·值神整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "18 时辰",
+      "original_text": "时辰为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：时辰用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "时辰",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·时辰整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "19 家人安排",
+      "original_text": "凡看家人安排，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：家人安排用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "家人安排",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·家人安排整理"
+    },
+    {
+      "chapter": "选择宗镜要点",
+      "section": "20 天气交通",
+      "original_text": "天气交通须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：天气交通用于选择宗镜相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "选择",
+        "择日",
+        "用事",
+        "民俗",
+        "天气交通",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "选择宗镜·天气交通整理"
+    }
+  ]
+}

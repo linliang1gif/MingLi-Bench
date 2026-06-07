@@ -11,6 +11,7 @@ import api from '../services/api';
 import PaperCard from '../components/PaperCard';
 import StatusTag from '../components/StatusTag';
 import MarkdownView from '../components/MarkdownView';
+import AnalysisModeSelector, { AnalysisModeTag } from '../components/AnalysisModeSelector';
 
 dayjs.extend(utc);
 const fmtLocal = (ts) => ts ? dayjs.utc(ts).local().format('YYYY-MM-DD HH:mm') : '';
@@ -40,6 +41,7 @@ export default function ChatHome() {
   const [messages, setMessages] = useState([]);
   const [streaming, setStreaming] = useState(''); // 当前正在流式接收的助手文本
   const [input, setInput] = useState('');
+  const [analysisMode, setAnalysisMode] = useState('safe');
   const [sending, setSending] = useState(false);
   const [chatError, setChatError] = useState(null);
   const messagesEndRef = useRef(null);
@@ -102,7 +104,7 @@ export default function ChatHome() {
     if (content === '生成综合报告') {
       try {
         setSending(true);
-        const r = await api.generateReport({ subjectId: activeSubjectId, reportType: 'general' });
+        const r = await api.generateReport({ subjectId: activeSubjectId, reportType: 'general', analysisMode });
         setReports((prev) => [r, ...prev]);
         // 同时也写到对话窗中
         setMessages((prev) => [
@@ -132,6 +134,7 @@ export default function ChatHome() {
       subjectId: activeSubjectId,
       sessionId: activeSessionId || undefined,
       message: content,
+      analysisMode,
       onMeta: (m) => {
         if (m.session_id) {
           metaSessionId = m.session_id;
@@ -143,9 +146,10 @@ export default function ChatHome() {
         setStreaming(assembled);
       },
       onDone: (d) => {
+        const finalContent = d?.content || assembled;
         setMessages((prev) => [
           ...prev,
-          { id: `local-a-${Date.now()}`, role: 'assistant', content: assembled },
+          { id: `local-a-${Date.now()}`, role: 'assistant', content: finalContent },
         ]);
         setStreaming('');
         setSending(false);
@@ -262,6 +266,7 @@ export default function ChatHome() {
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+              <AnalysisModeSelector value={analysisMode} onChange={setAnalysisMode} size="small" />
               <LLMBadge status={llmStatus} />
               {activeSubject && <SubjectBadge subject={activeSubject} />}
             </div>
@@ -364,9 +369,9 @@ export default function ChatHome() {
           defaultActiveKey="chart"
           items={[
             { key: 'chart',        label: '命盘', children: <ChartTab subject={activeSubject} chart={chart} loading={chartLoading} onRecompute={() => activeSubjectId && api.generateChart(activeSubjectId).then(setChart)} /> },
-            { key: 'wealth',       label: '财运', children: <FocusTab title="财运" subjectId={activeSubjectId} reportType="wealth" onCreated={(r)=>setReports(p=>[r,...p])} /> },
-            { key: 'relationship', label: '感情', children: <FocusTab title="感情" subjectId={activeSubjectId} reportType="relationship" onCreated={(r)=>setReports(p=>[r,...p])} /> },
-            { key: 'career',       label: '事业', children: <FocusTab title="事业" subjectId={activeSubjectId} reportType="career" onCreated={(r)=>setReports(p=>[r,...p])} /> },
+            { key: 'wealth',       label: '财运', children: <FocusTab title="财运" subjectId={activeSubjectId} reportType="wealth" analysisMode={analysisMode} onCreated={(r)=>setReports(p=>[r,...p])} /> },
+            { key: 'relationship', label: '感情', children: <FocusTab title="感情" subjectId={activeSubjectId} reportType="relationship" analysisMode={analysisMode} onCreated={(r)=>setReports(p=>[r,...p])} /> },
+            { key: 'career',       label: '事业', children: <FocusTab title="事业" subjectId={activeSubjectId} reportType="career" analysisMode={analysisMode} onCreated={(r)=>setReports(p=>[r,...p])} /> },
             { key: 'reports',      label: '报告', children: <ReportsTab reports={reports} onClick={(id)=>navigate(`/reports/${id}`)} /> },
           ]}
         />
@@ -538,7 +543,7 @@ function ChartTab({ subject, chart, loading, onRecompute }) {
   );
 }
 
-function FocusTab({ title, subjectId, reportType, onCreated }) {
+function FocusTab({ title, subjectId, reportType, analysisMode, onCreated }) {
   const [busy, setBusy] = useState(false);
   const [tip, setTip] = useState(null);
   if (!subjectId) return <Empty description="请先选择命主" />;
@@ -555,7 +560,7 @@ function FocusTab({ title, subjectId, reportType, onCreated }) {
             onClick={async () => {
               setBusy(true); setTip(null);
               try {
-                const r = await api.generateReport({ subjectId, reportType });
+                const r = await api.generateReport({ subjectId, reportType, analysisMode });
                 onCreated?.(r);
                 setTip(`已生成《${r.title}》`);
               } catch (e) { setTip(e.message || '生成失败'); }
@@ -565,6 +570,9 @@ function FocusTab({ title, subjectId, reportType, onCreated }) {
             生成 {title} 专项报告
           </Button>
           {tip && <span style={{ marginLeft: 10, color: 'var(--ml-text-sub)', fontSize: 12 }}>{tip}</span>}
+          <div style={{ marginTop: 10 }}>
+            <AnalysisModeTag mode={analysisMode} />
+          </div>
         </div>
       </PaperCard>
     </div>

@@ -1,0 +1,474 @@
+{
+  "title": "沈氏玄空学",
+  "alias": "玄空学",
+  "category_code": "14",
+  "author": "沈竹礽",
+  "dynasty": "清末民初",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "玄空飞星重要近代公版参考，服务三元九运、飞星盘与坐向解释。",
+  "chunks": [
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "01 三元九运",
+      "original_text": "三元九运之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：三元九运用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·三元九运整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "02 上元",
+      "original_text": "论上元，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：上元用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "上元",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·上元整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "03 中元",
+      "original_text": "中元为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：中元用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "中元",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·中元整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "04 下元",
+      "original_text": "凡看下元，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：下元用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "下元",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·下元整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "05 运星入中",
+      "original_text": "运星入中须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：运星入中用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "运星入中",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·运星入中整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "06 顺飞",
+      "original_text": "顺飞之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：顺飞用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "顺飞",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·顺飞整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "07 逆飞",
+      "original_text": "论逆飞，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：逆飞用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "逆飞",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·逆飞整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "08 山向",
+      "original_text": "山向为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：山向用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "山向",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·山向整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "09 坐山",
+      "original_text": "凡看坐山，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：坐山用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "坐山",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·坐山整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "10 向首",
+      "original_text": "向首须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：向首用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "向首",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·向首整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "11 二十四山",
+      "original_text": "二十四山之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：二十四山用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "二十四山",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·二十四山整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "12 九宫",
+      "original_text": "论九宫，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：九宫用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "九宫",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·九宫整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "13 中宫",
+      "original_text": "中宫为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：中宫用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "中宫",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·中宫整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "14 洛书",
+      "original_text": "凡看洛书，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：洛书用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "洛书",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·洛书整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "15 一白",
+      "original_text": "一白须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：一白用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "一白",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·一白整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "16 二黑",
+      "original_text": "二黑之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：二黑用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "二黑",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·二黑整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "17 三碧",
+      "original_text": "论三碧，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：三碧用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "三碧",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·三碧整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "18 四绿",
+      "original_text": "四绿为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：四绿用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "四绿",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·四绿整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "19 五黄",
+      "original_text": "凡看五黄，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：五黄用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "五黄",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·五黄整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "20 六白",
+      "original_text": "六白须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：六白用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "六白",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·六白整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "21 七赤",
+      "original_text": "七赤之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：七赤用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "七赤",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·七赤整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "22 八白",
+      "original_text": "论八白，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：八白用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "八白",
+        "fengshui_xuankong"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·八白整理"
+    },
+    {
+      "chapter": "沈氏玄空学要点",
+      "section": "23 九紫",
+      "original_text": "九紫为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：九紫用于沈氏玄空学相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "玄空",
+        "飞星",
+        "三元九运",
+        "理气",
+        "九紫",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_xuankong_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "沈氏玄空学·九紫整理"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "title": "疑龙经",
+  "alias": "疑龙经辑要",
+  "category_code": "20",
+  "author": "杨筠松",
+  "dynasty": "唐",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "龙穴砂水向辨疑参考，服务阴宅学习和地理形势校验。",
+  "chunks": [
+    {
+      "chapter": "疑龙经要点",
+      "section": "01 辨龙真假",
+      "original_text": "辨龙真假之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：辨龙真假用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "辨龙真假",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·辨龙真假整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "02 寻龙审势",
+      "original_text": "论寻龙审势，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：寻龙审势用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "寻龙审势",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·寻龙审势整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "03 穴前明堂",
+      "original_text": "穴前明堂为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：穴前明堂用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "穴前明堂",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·穴前明堂整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "04 穴后靠山",
+      "original_text": "凡看穴后靠山，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：穴后靠山用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "穴后靠山",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·穴后靠山整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "05 左右砂护",
+      "original_text": "左右砂护须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：左右砂护用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "左右砂护",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·左右砂护整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "06 水口关拦",
+      "original_text": "水口关拦之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：水口关拦用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "水口关拦",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·水口关拦整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "07 朝山案山",
+      "original_text": "论朝山案山，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：朝山案山用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "朝山案山",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·朝山案山整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "08 龙虎高低",
+      "original_text": "龙虎高低为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：龙虎高低用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "龙虎高低",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·龙虎高低整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "09 来去有情",
+      "original_text": "凡看来去有情，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：来去有情用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "来去有情",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·来去有情整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "10 枝干分明",
+      "original_text": "枝干分明须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：枝干分明用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "枝干分明",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·枝干分明整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "11 过峡束气",
+      "original_text": "过峡束气之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：过峡束气用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "过峡束气",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·过峡束气整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "12 平洋龙法",
+      "original_text": "论平洋龙法，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：平洋龙法用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "平洋龙法",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·平洋龙法整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "13 山地龙法",
+      "original_text": "山地龙法为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：山地龙法用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "山地龙法",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·山地龙法整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "14 形势转折",
+      "original_text": "凡看形势转折，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：形势转折用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "形势转折",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·形势转折整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "15 贵在审辨",
+      "original_text": "贵在审辨须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：贵在审辨用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "贵在审辨",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·贵在审辨整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "16 穴情",
+      "original_text": "穴情之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：穴情用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "穴情",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·穴情整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "17 砂情",
+      "original_text": "论砂情，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：砂情用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "砂情",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·砂情整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "18 水情",
+      "original_text": "水情为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：水情用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "水情",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·水情整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "19 向法",
+      "original_text": "凡看向法，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：向法用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "向法",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·向法整理"
+    },
+    {
+      "chapter": "疑龙经要点",
+      "section": "20 综合权衡",
+      "original_text": "综合权衡须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：综合权衡用于疑龙经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "疑龙经",
+        "龙穴",
+        "砂水",
+        "堪舆",
+        "综合权衡",
+        "tianxing_fengshui"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "tianxing_fengshui_report",
+        "knowledge"
+      ],
+      "source_ref": "疑龙经·综合权衡整理"
+    }
+  ]
+}

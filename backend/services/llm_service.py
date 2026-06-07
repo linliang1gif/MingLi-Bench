@@ -11,7 +11,11 @@
 from __future__ import annotations
 
 import logging
+import base64
+import json
+import os
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any, Dict, Generator, List, Optional
 
 from mingli_bench.utils.config import load_config
@@ -49,6 +53,19 @@ _LIGHT_MODELS = {
     "google":     "gemini-1.5-flash",
 }
 
+_VISION_MODEL_DEFAULTS = {
+    "openai": "gpt-4o-mini",
+    "openrouter": "openai/gpt-4o-mini",
+    "qiniu": "qwen-vl-max-2025-01-25",
+}
+
+_IMAGE_MIME_BY_EXT = {
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".png": "image/png",
+    ".webp": "image/webp",
+}
+
 # 不支持 temperature 调节的推理型模型名片段（调用时不传 temperature）
 _REASONER_MODEL_HINTS = ("reasoner", "-r1", "o1", "o3")
 
@@ -77,6 +94,37 @@ def _select_provider() -> Optional[LLMSelection]:
     return None
 
 
+def _select_vision_provider() -> Optional[LLMSelection]:
+    """Select an OpenAI-compatible vision model when configured."""
+    cfg = load_config()
+    provider = (os.getenv("VISION_PROVIDER") or "").strip().lower()
+    if provider:
+        pcfg = cfg.get(provider) or {}
+        api_key = os.getenv("VISION_API_KEY") or pcfg.get("api_key")
+        if _is_placeholder(api_key):
+            return None
+        return LLMSelection(
+            provider=provider,
+            model=os.getenv("VISION_MODEL") or _VISION_MODEL_DEFAULTS.get(provider) or settings.default_models.get(provider),
+            base_url=os.getenv("VISION_BASE_URL") or pcfg.get("base_url"),
+            has_key=True,
+        )
+
+    # The current DeepSeek chat model is text-only in this project, so do not auto-select it for images.
+    for candidate in ("openai", "openrouter"):
+        pcfg = cfg.get(candidate) or {}
+        api_key = pcfg.get("api_key")
+        if _is_placeholder(api_key):
+            continue
+        return LLMSelection(
+            provider=candidate,
+            model=_VISION_MODEL_DEFAULTS[candidate],
+            base_url=pcfg.get("base_url"),
+            has_key=True,
+        )
+    return None
+
+
 def _light_model_for(provider: str, fallback: str) -> str:
     return _LIGHT_MODELS.get(provider) or fallback
 
@@ -87,6 +135,155 @@ def get_active_provider_info() -> Dict[str, Any]:
     if not sel:
         return {"available": False, "provider": None, "model": None}
     return {"available": True, "provider": sel.provider, "model": sel.model}
+
+
+def analyze_image_objects(*, image_path: str, room_type: str) -> Dict[str, Any]:
+    """Analyze visible objects in an uploaded image via a configured vision model.
+
+    If no compatible vision model is configured, callers receive a clean fallback signal and can
+    return editable mock results.
+    """
+    sel = _select_vision_provider()
+    if not sel:
+        return {
+            "ok": False,
+            "analysis": None,
+            "provider": None,
+            "model": None,
+            "error": "vision_model_not_configured",
+            "image_path": image_path,
+            "room_type": room_type,
+        }
+
+    path = Path(image_path)
+    if not path.exists():
+        return {
+            "ok": False,
+            "analysis": None,
+            "provider": sel.provider,
+            "model": sel.model,
+            "error": "image_file_not_found",
+            "image_path": image_path,
+            "room_type": room_type,
+        }
+    mime_type = _IMAGE_MIME_BY_EXT.get(path.suffix.lower())
+    if not mime_type:
+        return {
+            "ok": False,
+            "analysis": None,
+            "provider": sel.provider,
+            "model": sel.model,
+            "error": "unsupported_image_type",
+            "image_path": image_path,
+            "room_type": room_type,
+        }
+
+    try:
+        from openai import OpenAI
+
+        api_key = os.getenv("VISION_API_KEY") or (load_config().get(sel.provider) or {}).get("api_key")
+        image_b64 = base64.b64encode(path.read_bytes()).decode("ascii")
+        data_url = f"data:{mime_type};base64,{image_b64}"
+        system_prompt = (
+            "你是图片中可见对象的结构化识别助手。只描述照片中可见的客观对象和大致位置，"
+            "不要输出医疗、法律、投资结论，不要恐吓或强断。"
+        )
+        if room_type == "heritage_risk":
+            system_prompt += (
+                "当前场景是文保风险记录。严禁输出古墓定位、古墓概率、墓道/墓室/入口推测、"
+                "寻找路线、挖掘建议或探测建议；只能记录山势地貌、异常地貌、人工痕迹、"
+                "近期扰动和现场保护线索。不确定信息必须标注需要专业人员现场核实。"
+            )
+        user_prompt = (
+            "请识别图片中的可见对象，返回严格 JSON，不要 Markdown。"
+            "objects 只返回照片中清楚可见的客观对象，不要求凑够数量；宁可少返回，也不要把看不清的建筑、道路、人工土堆等硬猜成对象。"
+            "外局山水田野照片中，前景绿色地块应优先识别为 field、farmland、grassland 或 open_space；只有明确看到水面、河流、湖泊时才返回 water。"
+            "只有明确看到建筑轮廓、墙体或屋顶时才返回 building；只有明确看到路面或道路边界时才返回 road/path。"
+            "不确定的内容写入 possible_issues，请用户人工核对。"
+            "如果当前场景不是 heritage_risk，不要返回 artificial_mound、stone_object、inscription、surface_artifact、recent_disturbance 这类文保风险字段。"
+            "不要输出笼统的画面概括，重点返回对象、位置、置信度和需要人工核对的事项。格式："
+            '{"room_type":"场景类型","objects":[{"name":"bed|door|window|mirror|beam|mountain|slope|field|farmland|grassland|open_space|water|road|path|building|tree|pole|artificial_mound|stone_object|inscription|surface_artifact|recent_disturbance|target",'
+            '"label":"中文标签","position":"front|back-wall|center|center-left|center-right|front-left|front-right|side|background|unknown","confidence":0.0}],'
+            '"possible_issues":[],"need_user_confirm":true}。'
+            f"当前场景类型：{room_type}。"
+        )
+
+        client = OpenAI(api_key=api_key, base_url=sel.base_url, timeout=120, max_retries=1)
+        resp = client.chat.completions.create(
+            model=sel.model,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": user_prompt},
+                        {"type": "image_url", "image_url": {"url": data_url, "detail": "low"}},
+                    ],
+                },
+            ],
+            max_tokens=1200,
+            temperature=0.1,
+        )
+        content = (resp.choices[0].message.content or "").strip()
+        analysis = _extract_json_object(content)
+        if not isinstance(analysis, dict):
+            return {
+                "ok": False,
+                "analysis": None,
+                "provider": sel.provider,
+                "model": sel.model,
+                "error": "vision_response_parse_failed",
+                "image_path": image_path,
+                "room_type": room_type,
+            }
+        analysis.setdefault("room_type", room_type)
+        analysis.setdefault("scene_type", room_type)
+        analysis.setdefault("objects", [])
+        analysis.setdefault("possible_issues", [])
+        analysis.setdefault("need_user_confirm", True)
+        analysis["vision_raw_text"] = content[:2000]
+        return {
+            "ok": True,
+            "analysis": analysis,
+            "provider": sel.provider,
+            "model": sel.model,
+            "error": None,
+            "image_path": image_path,
+            "room_type": room_type,
+        }
+    except Exception as e:
+        logger.exception("vision_call_failed provider=%s model=%s", sel.provider, sel.model)
+        return {
+            "ok": False,
+            "analysis": None,
+            "provider": sel.provider,
+            "model": sel.model,
+            "error": type(e).__name__,
+            "image_path": image_path,
+            "room_type": room_type,
+        }
+
+
+def _extract_json_object(text: str) -> Optional[Dict[str, Any]]:
+    source = (text or "").strip()
+    if source.startswith("```"):
+        source = source.strip("`").strip()
+        if source.lower().startswith("json"):
+            source = source[4:].strip()
+    try:
+        parsed = json.loads(source)
+        return parsed if isinstance(parsed, dict) else None
+    except Exception:
+        pass
+    start = source.find("{")
+    end = source.rfind("}")
+    if start >= 0 and end > start:
+        try:
+            parsed = json.loads(source[start : end + 1])
+            return parsed if isinstance(parsed, dict) else None
+        except Exception:
+            return None
+    return None
 
 
 def chat_complete(

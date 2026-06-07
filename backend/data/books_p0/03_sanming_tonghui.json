@@ -1,0 +1,414 @@
+{
+  "title": "三命通会",
+  "alias": "三命通会辑要",
+  "category_code": "02",
+  "author": "万民英",
+  "dynasty": "明",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "A",
+  "risk_level": "medium",
+  "description": "命理综合典籍，适合补充四柱、格局、神煞和岁运引用。",
+  "chunks": [
+    {
+      "chapter": "三命通会要点",
+      "section": "01 四柱统论",
+      "original_text": "四柱统论之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：四柱统论用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "四柱统论",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·四柱统论整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "02 五行生克",
+      "original_text": "论五行生克，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：五行生克用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "五行生克",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·五行生克整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "03 干支配合",
+      "original_text": "干支配合为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：干支配合用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "干支配合",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·干支配合整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "04 纳音",
+      "original_text": "凡看纳音，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：纳音用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "纳音",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·纳音整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "05 神煞",
+      "original_text": "神煞须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：神煞用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·神煞整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "06 格局",
+      "original_text": "格局之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：格局用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "格局",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·格局整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "07 贵贱",
+      "original_text": "论贵贱，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：贵贱用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "贵贱",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·贵贱整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "08 六亲",
+      "original_text": "六亲为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：六亲用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "六亲",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·六亲整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "09 财官印食",
+      "original_text": "凡看财官印食，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：财官印食用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "财官印食",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·财官印食整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "10 刑冲合害",
+      "original_text": "刑冲合害须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：刑冲合害用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "刑冲合害",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·刑冲合害整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "11 会合",
+      "original_text": "会合之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：会合用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "会合",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·会合整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "12 空亡",
+      "original_text": "论空亡，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：空亡用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "空亡",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·空亡整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "13 墓库",
+      "original_text": "墓库为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：墓库用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "墓库",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·墓库整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "14 大运",
+      "original_text": "凡看大运，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：大运用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "大运",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·大运整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "15 小运",
+      "original_text": "小运须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：小运用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "小运",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·小运整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "16 流年",
+      "original_text": "流年之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：流年用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "流年",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·流年整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "17 太岁",
+      "original_text": "论太岁，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：太岁用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "太岁",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·太岁整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "18 月令",
+      "original_text": "月令为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：月令用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "月令",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·月令整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "19 调候",
+      "original_text": "凡看调候，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：调候用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "调候",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·调候整理"
+    },
+    {
+      "chapter": "三命通会要点",
+      "section": "20 综合判断",
+      "original_text": "综合判断须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：综合判断用于三命通会相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "三命",
+        "神煞",
+        "岁运",
+        "综合判断",
+        "date_selection"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "date_selection_report",
+        "knowledge"
+      ],
+      "source_ref": "三命通会·综合判断整理"
+    }
+  ]
+}

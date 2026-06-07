@@ -123,6 +123,26 @@ body::before {
   font-family: var(--ml-font-sans);
   padding: 8px 10px;
 }
+.ml-side .ant-layout-sider-children {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.ml-side-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 8px;
+}
+.ml-side-menu .ant-menu-item-group-title {
+  color: rgba(199, 214, 210, 0.62) !important;
+  font-size: 12px !important;
+  line-height: 20px !important;
+  padding: 16px 14px 4px !important;
+  letter-spacing: 1px;
+}
 .ml-side-menu .ant-menu-item,
 .ml-side-menu .ant-menu-submenu-title {
   color: #C7D6D2 !important;

@@ -8,24 +8,72 @@ import {
   HistoryOutlined,
   SettingOutlined,
   AuditOutlined,
+  BookOutlined,
+  DatabaseOutlined,
+  SafetyCertificateOutlined,
+  HomeOutlined,
+  CalendarOutlined,
+  CameraOutlined,
+  TagsOutlined,
+  BulbOutlined,
+  CheckCircleOutlined,
 } from '@ant-design/icons';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import LogoSeal from '../components/LogoSeal';
 
 const { Sider, Header, Content } = Layout;
+const APP_VERSION = 'V1.4.2';
 
 /**
  * 明理 AI 主导航。
  */
-const NAV = [
-  { key: '/',          icon: <MessageOutlined />,  label: 'AI 问命' },
-  { key: '/subjects',  icon: <UserOutlined />,     label: '命主档案' },
-  { key: '/chart',     icon: <CompassOutlined />,  label: '命盘分析' },
-  { key: '/reports',   icon: <FileTextOutlined />, label: '分析报告' },
-  { key: '/history',   icon: <HistoryOutlined />,  label: '历史记录' },
-  { key: '/case-review', icon: <AuditOutlined />, label: '案例审核' },
-  { key: '/settings',  icon: <SettingOutlined />,  label: '设置' },
+const NAV_GROUPS = [
+  {
+    label: '命理分析',
+    children: [
+      { key: '/', icon: <MessageOutlined />, label: 'AI 问命' },
+      { key: '/subjects', icon: <UserOutlined />, label: '命主档案' },
+      { key: '/chart', icon: <CompassOutlined />, label: '命盘分析' },
+      { key: '/reports', icon: <FileTextOutlined />, label: '分析报告' },
+      { key: '/history', icon: <HistoryOutlined />, label: '历史记录' },
+      { key: '/case-review', icon: <AuditOutlined />, label: '案例审核' },
+    ],
+  },
+  {
+    label: '风水工具',
+    children: [
+      { key: '/houses', icon: <HomeOutlined />, label: '房屋档案' },
+      { key: '/compass', icon: <CompassOutlined />, label: '罗盘测向' },
+      { key: '/xuankong', icon: <CompassOutlined />, label: '玄空飞星' },
+      { key: '/fengshui-photo', icon: <CameraOutlined />, label: '拍照识别' },
+      { key: '/landscape-photo', icon: <CameraOutlined />, label: '外局拍照' },
+      { key: '/yinzhai', icon: <CompassOutlined />, label: '阴宅研究' },
+      { key: '/tianxing', icon: <CompassOutlined />, label: '天星风水' },
+    ],
+  },
+  {
+    label: '传统工具',
+    children: [
+      { key: '/categories', icon: <BookOutlined />, label: '知识类目' },
+      { key: '/knowledge', icon: <DatabaseOutlined />, label: '古籍知识库' },
+      { key: '/date-selection', icon: <CalendarOutlined />, label: '择日黄历' },
+      { key: '/naming', icon: <TagsOutlined />, label: '起名工具' },
+      { key: '/divination', icon: <BulbOutlined />, label: '测字灵签' },
+    ],
+  },
+  {
+    label: '系统管理',
+    children: [
+      { key: '/prompts', icon: <FileTextOutlined />, label: 'Prompt 管理' },
+      { key: '/knowledge-import', icon: <DatabaseOutlined />, label: '古籍导入' },
+      { key: '/risk-terms', icon: <SafetyCertificateOutlined />, label: '风险词管理' },
+      { key: '/system-check', icon: <CheckCircleOutlined />, label: '系统自检' },
+      { key: '/settings', icon: <SettingOutlined />, label: '设置' },
+    ],
+  },
 ];
+
+const NAV = NAV_GROUPS.flatMap((group) => group.children);
 
 export default function MainLayout() {
   const location = useLocation();
@@ -67,12 +115,16 @@ export default function MainLayout() {
         </div>
 
         {/* 菜单可滚动区 */}
-        <div style={{ flex: 1, minHeight: 0, overflow: 'auto' }}>
+        <div className="ml-side-scroll">
           <Menu
             className="ml-side-menu"
             mode="inline"
             selectedKeys={[selectedKey]}
-            items={NAV.map((n) => ({ key: n.key, icon: n.icon, label: n.label }))}
+            items={NAV_GROUPS.map((group) => ({
+              type: 'group',
+              label: group.label,
+              children: group.children.map((n) => ({ key: n.key, icon: n.icon, label: n.label })),
+            }))}
             onClick={({ key }) => navigate(key)}
           />
         </div>
@@ -90,7 +142,10 @@ export default function MainLayout() {
             borderTop: '1px solid rgba(94, 139, 126, 0.14)',
           }}
         >
-          以题为尺 · 以盘为据
+          <div>以题为尺 · 以盘为据</div>
+          <div style={{ marginTop: 6, fontFamily: 'var(--ml-font-sans)', letterSpacing: 0 }}>
+            {APP_VERSION}
+          </div>
         </div>
       </Sider>
 

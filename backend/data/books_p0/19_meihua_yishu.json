@@ -1,0 +1,415 @@
+{
+  "title": "梅花易数",
+  "alias": "梅花心易",
+  "category_code": "44",
+  "author": "邵雍",
+  "dynasty": "宋",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "象数占法参考，服务测字、字形联想、易象与灵签式启发。",
+  "chunks": [
+    {
+      "chapter": "梅花易数要点",
+      "section": "01 观物取象",
+      "original_text": "观物取象之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：观物取象用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "观物取象",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·观物取象整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "02 以数起卦",
+      "original_text": "论以数起卦，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：以数起卦用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "以数起卦",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·以数起卦整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "03 字形取象",
+      "original_text": "字形取象为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：字形取象用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "字形取象",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·字形取象整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "04 字义取象",
+      "original_text": "凡看字义取象，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：字义取象用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "字义取象",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·字义取象整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "05 声音取象",
+      "original_text": "声音取象须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：声音取象用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "声音取象",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·声音取象整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "06 动静取象",
+      "original_text": "动静取象之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：动静取象用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "动静取象",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·动静取象整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "07 体用",
+      "original_text": "论体用，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：体用用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "体用",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·体用整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "08 互卦",
+      "original_text": "互卦为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：互卦用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "互卦",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·互卦整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "09 变卦",
+      "original_text": "凡看变卦，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：变卦用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "变卦",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·变卦整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "10 五行生克",
+      "original_text": "五行生克须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：五行生克用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "五行生克",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·五行生克整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "11 八卦象义",
+      "original_text": "八卦象义之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：八卦象义用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "八卦象义",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·八卦象义整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "12 时空触机",
+      "original_text": "论时空触机，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：时空触机用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "时空触机",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·时空触机整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "13 问事边界",
+      "original_text": "问事边界为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：问事边界用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "问事边界",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·问事边界整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "14 吉凶转化",
+      "original_text": "凡看吉凶转化，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：吉凶转化用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "吉凶转化",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·吉凶转化整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "15 现实建议",
+      "original_text": "现实建议须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：现实建议用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "现实建议",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·现实建议整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "16 自省",
+      "original_text": "自省之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：自省用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "自省",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·自省整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "17 不作强断",
+      "original_text": "论不作强断，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：不作强断用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "不作强断",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·不作强断整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "18 娱乐参考",
+      "original_text": "娱乐参考为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：娱乐参考用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "娱乐参考",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·娱乐参考整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "19 风险提醒",
+      "original_text": "凡看风险提醒，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：风险提醒用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "风险提醒",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·风险提醒整理"
+    },
+    {
+      "chapter": "梅花易数要点",
+      "section": "20 复盘验证",
+      "original_text": "复盘验证须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：复盘验证用于梅花易数相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "梅花易数",
+        "测字",
+        "易象",
+        "占法",
+        "复盘验证",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "word_divination_report",
+        "lottery_report",
+        "knowledge"
+      ],
+      "source_ref": "梅花易数·复盘验证整理"
+    }
+  ]
+}

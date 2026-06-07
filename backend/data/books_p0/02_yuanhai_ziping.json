@@ -1,0 +1,413 @@
+{
+  "title": "渊海子平",
+  "alias": "子平渊海",
+  "category_code": "02",
+  "author": "徐大升",
+  "dynasty": "宋",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "A",
+  "risk_level": "medium",
+  "description": "子平八字体系重要入门经典，覆盖日主、月令、十神、格局与岁运。",
+  "chunks": [
+    {
+      "chapter": "渊海子平要点",
+      "section": "01 日主",
+      "original_text": "日主之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：日主用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "日主",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·日主整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "02 月令",
+      "original_text": "论月令，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：月令用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "月令",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·月令整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "03 年柱",
+      "original_text": "年柱为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：年柱用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "年柱",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·年柱整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "04 月柱",
+      "original_text": "凡看月柱，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：月柱用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "月柱",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·月柱整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "05 日柱",
+      "original_text": "日柱须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：日柱用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "日柱",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·日柱整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "06 时柱",
+      "original_text": "时柱之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：时柱用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "时柱",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·时柱整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "07 十神",
+      "original_text": "论十神，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：十神用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·十神整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "08 财官",
+      "original_text": "财官为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：财官用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "财官",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·财官整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "09 印绶",
+      "original_text": "凡看印绶，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：印绶用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "印绶",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·印绶整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "10 食伤",
+      "original_text": "食伤须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：食伤用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "食伤",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·食伤整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "11 比劫",
+      "original_text": "比劫之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：比劫用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "比劫",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·比劫整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "12 旺衰",
+      "original_text": "论旺衰，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：旺衰用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "旺衰",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·旺衰整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "13 通根",
+      "original_text": "通根为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：通根用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "通根",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·通根整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "14 透干",
+      "original_text": "凡看透干，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：透干用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "透干",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·透干整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "15 格局",
+      "original_text": "格局须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：格局用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·格局整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "16 用神",
+      "original_text": "用神之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：用神用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "用神",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·用神整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "17 忌神",
+      "original_text": "论忌神，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：忌神用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "忌神",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·忌神整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "18 大运",
+      "original_text": "大运为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：大运用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "大运",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·大运整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "19 流年",
+      "original_text": "凡看流年，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：流年用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "流年",
+        "bazi"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·流年整理"
+    },
+    {
+      "chapter": "渊海子平要点",
+      "section": "20 岁运",
+      "original_text": "岁运须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：岁运用于渊海子平相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "八字",
+        "子平",
+        "十神",
+        "格局",
+        "岁运",
+        "naming"
+      ],
+      "applicable_modules": [
+        "bazi_report",
+        "naming_report",
+        "knowledge"
+      ],
+      "source_ref": "渊海子平·岁运整理"
+    }
+  ]
+}

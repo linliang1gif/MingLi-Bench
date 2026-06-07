@@ -1,0 +1,415 @@
+{
+  "title": "葬经",
+  "alias": "葬书",
+  "category_code": "13",
+  "author": "郭璞",
+  "dynasty": "晋",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "A",
+  "risk_level": "medium",
+  "description": "堪舆形势经典，服务阴宅学习、风水总论与形势说明。",
+  "chunks": [
+    {
+      "chapter": "葬经要点",
+      "section": "01 乘生气",
+      "original_text": "乘生气之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：乘生气用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "乘生气",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·乘生气整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "02 藏风聚气",
+      "original_text": "论藏风聚气，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：藏风聚气用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "藏风聚气",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·藏风聚气整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "03 界水则止",
+      "original_text": "界水则止为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：界水则止用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "界水则止",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·界水则止整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "04 形止气蓄",
+      "original_text": "凡看形止气蓄，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：形止气蓄用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "形止气蓄",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·形止气蓄整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "05 来龙",
+      "original_text": "来龙须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：来龙用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "来龙",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·来龙整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "06 结穴",
+      "original_text": "结穴之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：结穴用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "结穴",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·结穴整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "07 明堂",
+      "original_text": "论明堂，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：明堂用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "明堂",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·明堂整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "08 砂水",
+      "original_text": "砂水为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：砂水用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "砂水",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·砂水整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "09 四势",
+      "original_text": "凡看四势，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：四势用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "四势",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·四势整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "10 青龙",
+      "original_text": "青龙须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：青龙用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "青龙",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·青龙整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "11 白虎",
+      "original_text": "白虎之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：白虎用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "白虎",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·白虎整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "12 朱雀",
+      "original_text": "论朱雀，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：朱雀用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "朱雀",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·朱雀整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "13 玄武",
+      "original_text": "玄武为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：玄武用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "玄武",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·玄武整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "14 支垅",
+      "original_text": "凡看支垅，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：支垅用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "支垅",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·支垅整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "15 山水有情",
+      "original_text": "山水有情须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：山水有情用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "山水有情",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·山水有情整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "16 背后有靠",
+      "original_text": "背后有靠之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：背后有靠用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "背后有靠",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·背后有靠整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "17 前方开阔",
+      "original_text": "论前方开阔，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：前方开阔用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "前方开阔",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·前方开阔整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "18 左右护持",
+      "original_text": "左右护持为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：左右护持用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "左右护持",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·左右护持整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "19 形势观察",
+      "original_text": "凡看形势观察，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：形势观察用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "形势观察",
+        "yinzhai_study"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·形势观察整理"
+    },
+    {
+      "chapter": "葬经要点",
+      "section": "20 风险边界",
+      "original_text": "风险边界须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：风险边界用于葬经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "葬经",
+        "阴宅",
+        "生气",
+        "形势",
+        "风险边界",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "yinzhai_study_report",
+        "fengshui_basic_report",
+        "knowledge"
+      ],
+      "source_ref": "葬经·风险边界整理"
+    }
+  ]
+}

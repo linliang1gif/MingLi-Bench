@@ -1,0 +1,415 @@
+{
+  "title": "黄帝宅经",
+  "alias": "宅经",
+  "category_code": "22",
+  "author": "佚名",
+  "dynasty": "唐前",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "传统宅居观念参考，服务城市住宅、户型与现代空间环境说明。",
+  "chunks": [
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "01 宅有阴阳",
+      "original_text": "宅有阴阳之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：宅有阴阳用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "宅有阴阳",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·宅有阴阳整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "02 宅以形势为体",
+      "original_text": "论宅以形势为体，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：宅以形势为体用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "宅以形势为体",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·宅以形势为体整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "03 门户",
+      "original_text": "门户为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：门户用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "门户",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·门户整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "04 厅堂",
+      "original_text": "凡看厅堂，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：厅堂用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "厅堂",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·厅堂整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "05 卧房",
+      "original_text": "卧房须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：卧房用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "卧房",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·卧房整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "06 厨房",
+      "original_text": "厨房之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：厨房用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "厨房",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·厨房整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "07 井厕",
+      "original_text": "论井厕，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：井厕用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "井厕",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·井厕整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "08 院落",
+      "original_text": "院落为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：院落用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "院落",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·院落整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "09 明堂",
+      "original_text": "凡看明堂，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：明堂用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "明堂",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·明堂整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "10 左右",
+      "original_text": "左右须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：左右用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "左右",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·左右整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "11 前后",
+      "original_text": "前后之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：前后用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "前后",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·前后整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "12 高低",
+      "original_text": "论高低，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：高低用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "高低",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·高低整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "13 通风",
+      "original_text": "通风为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：通风用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "通风",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·通风整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "14 采光",
+      "original_text": "凡看采光，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：采光用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "采光",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·采光整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "15 道路",
+      "original_text": "道路须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：道路用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "道路",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·道路整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "16 邻里",
+      "original_text": "邻里之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：邻里用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "邻里",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·邻里整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "17 水火",
+      "original_text": "论水火，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：水火用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "水火",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·水火整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "18 安静",
+      "original_text": "安静为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：安静用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "安静",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·安静整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "19 整洁",
+      "original_text": "凡看整洁，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：整洁用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "整洁",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·整洁整理"
+    },
+    {
+      "chapter": "黄帝宅经要点",
+      "section": "20 居住舒适",
+      "original_text": "居住舒适须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：居住舒适用于黄帝宅经相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "宅经",
+        "住宅",
+        "户型",
+        "环境",
+        "居住舒适",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "黄帝宅经·居住舒适整理"
+    }
+  ]
+}

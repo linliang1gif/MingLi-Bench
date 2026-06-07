@@ -1,0 +1,71 @@
+{
+  "version": "2026-06-06",
+  "description": "第三阶段统一验收样例，只供展示、调试和人工验收，不自动写入数据库。",
+  "cases": [
+    {
+      "id": "bazi-general-001",
+      "module": "reports",
+      "title": "综合命理报告生成",
+      "input": {
+        "nickname": "测试命主甲",
+        "gender": "女",
+        "birth_date": "1992-08-15",
+        "birth_time": "09:30",
+        "birth_place": "杭州",
+        "report_type": "general"
+      },
+      "expected_checks": [
+        "报告可生成或返回明确的 LLM 配置提示",
+        "报告类型显示为中文",
+        "生成时间可排序"
+      ]
+    },
+    {
+      "id": "bazi-wealth-001",
+      "module": "reports",
+      "title": "财运专项报告筛选",
+      "input": {
+        "nickname": "测试命主乙",
+        "gender": "男",
+        "birth_date": "1988-03-21",
+        "birth_time": "21:10",
+        "birth_place": "成都",
+        "report_type": "wealth"
+      },
+      "expected_checks": [
+        "报告中心可按财运筛选",
+        "关键词可命中标题或正文"
+      ]
+    },
+    {
+      "id": "knowledge-search-001",
+      "module": "knowledge",
+      "title": "古籍片段检索与引用复制",
+      "input": {
+        "query": "大门",
+        "category_code": "12",
+        "reliability_level": "B",
+        "risk_level": "medium"
+      },
+      "expected_checks": [
+        "搜索结果展示 chunk_id、book_title、chapter、source_ref",
+        "引用信息可复制",
+        "筛选为空时不影响默认书籍列表"
+      ]
+    },
+    {
+      "id": "system-check-001",
+      "module": "system",
+      "title": "系统自检与数据库备份",
+      "input": {
+        "check_api": "/api/system/check",
+        "backup_api": "/api/system/backup-db"
+      },
+      "expected_checks": [
+        "核心表缺失时返回 issues 而不是 500",
+        "备份文件落在 backend/storage 下",
+        "测试样例只读取展示，不写入数据库"
+      ]
+    }
+  ]
+}

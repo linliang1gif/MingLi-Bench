@@ -87,9 +87,23 @@ def _parse_ymd(birth_date: str) -> Tuple[int, int, int]:
     return y, m, d
 
 
+_SHICHEN_MAP = {
+    "子时": (23, 0), "丑时": (1, 0), "寅时": (3, 0), "卯时": (5, 0),
+    "辰时": (7, 0), "巳时": (9, 0), "午时": (11, 0), "未时": (13, 0),
+    "申时": (15, 0), "酉时": (17, 0), "戌时": (19, 0), "亥时": (21, 0),
+    "子": (23, 0), "丑": (1, 0), "寅": (3, 0), "卯": (5, 0),
+    "辰": (7, 0), "巳": (9, 0), "午": (11, 0), "未": (13, 0),
+    "申": (15, 0), "酉": (17, 0), "戌": (19, 0), "亥": (21, 0),
+    "早子时": (23, 0), "晚子时": (23, 30), "夜子时": (23, 30),
+}
+
+
 def _parse_hm(birth_time: Optional[str]) -> Tuple[int, int]:
     if not birth_time:
         return 12, 0
+    birth_time = birth_time.strip()
+    if birth_time in _SHICHEN_MAP:
+        return _SHICHEN_MAP[birth_time]
     parts = birth_time.split(":")
     h = int(parts[0])
     mi = int(parts[1]) if len(parts) > 1 else 0

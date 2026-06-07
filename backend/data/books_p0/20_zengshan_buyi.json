@@ -1,0 +1,414 @@
+{
+  "title": "增删卜易",
+  "alias": "增删卜易辑要",
+  "category_code": "53",
+  "author": "野鹤老人",
+  "dynasty": "清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "六爻卜筮参考，服务占卜、灵签、测字等启发型报告的风险边界。",
+  "chunks": [
+    {
+      "chapter": "增删卜易要点",
+      "section": "01 占问有度",
+      "original_text": "占问有度之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：占问有度用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "占问有度",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·占问有度整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "02 用神",
+      "original_text": "论用神，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：用神用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "用神",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·用神整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "03 原神",
+      "original_text": "原神为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：原神用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "原神",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·原神整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "04 忌神",
+      "original_text": "凡看忌神，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：忌神用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "忌神",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·忌神整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "05 仇神",
+      "original_text": "仇神须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：仇神用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "仇神",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·仇神整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "06 世应",
+      "original_text": "世应之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：世应用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "世应",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·世应整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "07 动爻",
+      "original_text": "论动爻，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：动爻用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "动爻",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·动爻整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "08 变爻",
+      "original_text": "变爻为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：变爻用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "变爻",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·变爻整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "09 旬空",
+      "original_text": "凡看旬空，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：旬空用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "旬空",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·旬空整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "10 月建",
+      "original_text": "月建须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：月建用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "月建",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·月建整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "11 日辰",
+      "original_text": "日辰之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：日辰用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "日辰",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·日辰整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "12 冲合",
+      "original_text": "论冲合，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：冲合用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "冲合",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·冲合整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "13 生克",
+      "original_text": "生克为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：生克用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "生克",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·生克整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "14 旺衰",
+      "original_text": "凡看旺衰，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：旺衰用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "旺衰",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·旺衰整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "15 应期",
+      "original_text": "应期须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：应期用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "应期",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·应期整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "16 问财",
+      "original_text": "问财之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：问财用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "问财",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·问财整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "17 问事",
+      "original_text": "论问事，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：问事用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·问事整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "18 问行人",
+      "original_text": "问行人为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：问行人用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "问行人",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·问行人整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "19 占卜边界",
+      "original_text": "凡看占卜边界，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：占卜边界用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "占卜边界",
+        "lottery"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·占卜边界整理"
+    },
+    {
+      "chapter": "增删卜易要点",
+      "section": "20 现实复核",
+      "original_text": "现实复核须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：现实复核用于增删卜易相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "增删卜易",
+        "六爻",
+        "占卜",
+        "问事",
+        "现实复核",
+        "word_divination"
+      ],
+      "applicable_modules": [
+        "lottery_report",
+        "word_divination_report",
+        "knowledge"
+      ],
+      "source_ref": "增删卜易·现实复核整理"
+    }
+  ]
+}

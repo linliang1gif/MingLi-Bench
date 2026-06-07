@@ -1,0 +1,434 @@
+{
+  "title": "阳宅三要",
+  "alias": "阳宅三要辑要",
+  "category_code": "12",
+  "author": "赵九峰",
+  "dynasty": "清",
+  "version": "V1.3.1 公版短句与自整理解释",
+  "source": "backend/data/books_p0 本地整理",
+  "copyright_status": "public_domain_or_self整理",
+  "reliability_level": "B",
+  "risk_level": "medium",
+  "description": "阳宅门、主、灶分析框架，服务阳宅基础与拍照风水报告。",
+  "chunks": [
+    {
+      "chapter": "阳宅三要要点",
+      "section": "01 门主灶",
+      "original_text": "门主灶之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：门主灶用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·门主灶整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "02 大门气口",
+      "original_text": "论大门气口，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：大门气口用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "大门气口",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·大门气口整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "03 主房安稳",
+      "original_text": "主房安稳为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：主房安稳用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "主房安稳",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·主房安稳整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "04 厨房灶位",
+      "original_text": "凡看厨房灶位，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：厨房灶位用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "厨房灶位",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·厨房灶位整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "05 玄关明暗",
+      "original_text": "玄关明暗须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：玄关明暗用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "玄关明暗",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·玄关明暗整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "06 卧室床位",
+      "original_text": "卧室床位之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：卧室床位用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "卧室床位",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·卧室床位整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "07 床头有靠",
+      "original_text": "论床头有靠，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：床头有靠用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "床头有靠",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·床头有靠整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "08 门窗动线",
+      "original_text": "门窗动线为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：门窗动线用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "门窗动线",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·门窗动线整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "09 灶水分隔",
+      "original_text": "凡看灶水分隔，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：灶水分隔用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "灶水分隔",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·灶水分隔整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "10 采光通风",
+      "original_text": "采光通风须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：采光通风用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "采光通风",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·采光通风整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "11 厅堂开阔",
+      "original_text": "厅堂开阔之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：厅堂开阔用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "厅堂开阔",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·厅堂开阔整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "12 书桌位置",
+      "original_text": "论书桌位置，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：书桌位置用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "书桌位置",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·书桌位置整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "13 镜子安置",
+      "original_text": "镜子安置为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：镜子安置用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "镜子安置",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·镜子安置整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "14 横梁压迫",
+      "original_text": "凡看横梁压迫，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：横梁压迫用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "横梁压迫",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·横梁压迫整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "15 收纳秩序",
+      "original_text": "收纳秩序须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：收纳秩序用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "收纳秩序",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·收纳秩序整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "16 儿童房",
+      "original_text": "儿童房之义，贵在审其本末，不可离开时令与实际情境。",
+      "explanation": "自整理解释：儿童房用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "儿童房",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·儿童房整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "17 老人房",
+      "original_text": "论老人房，当先明阴阳消长，再参形势、五行与人事。",
+      "explanation": "自整理解释：老人房用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "老人房",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·老人房整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "18 客厅中心",
+      "original_text": "客厅中心为本书常用观察点，宜与整体格局合看。",
+      "explanation": "自整理解释：客厅中心用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "客厅中心",
+        "fengshui_basic"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·客厅中心整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "19 厨房卫生",
+      "original_text": "凡看厨房卫生，重在取象有据，忌以一端强作定论。",
+      "explanation": "自整理解释：厨房卫生用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "厨房卫生",
+        "fengshui_photo"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·厨房卫生整理"
+    },
+    {
+      "chapter": "阳宅三要要点",
+      "section": "20 现实可行",
+      "original_text": "现实可行须分清主次，得其所宜则可作参考。",
+      "explanation": "自整理解释：现实可行用于阳宅三要相关报告中的文化依据说明。实际使用时应结合用户输入、系统计算结果与现实环境，不作绝对吉凶或承诺式判断。",
+      "tags": [
+        "阳宅",
+        "门主灶",
+        "住宅",
+        "布局",
+        "现实可行",
+        "knowledge"
+      ],
+      "applicable_modules": [
+        "fengshui_basic_report",
+        "fengshui_basic",
+        "fengshui_photo_report",
+        "knowledge"
+      ],
+      "source_ref": "阳宅三要·现实可行整理"
+    }
+  ]
+}

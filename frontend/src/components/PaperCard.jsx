@@ -9,6 +9,7 @@ import { Card } from 'antd';
  * - 默认 16px 圆角 / 淡金描边 / 弱阴影（在 theme.css 中定义）
  */
 export default function PaperCard({ title, extra, children, style, bodyStyle, ...rest }) {
+  const { styles, ...cardProps } = rest;
   return (
     <Card
       title={
@@ -26,13 +27,13 @@ export default function PaperCard({ title, extra, children, style, bodyStyle, ..
         ) : undefined
       }
       extra={
-        extra ? (
+        typeof extra === 'string' || typeof extra === 'number' ? (
           <span style={{ color: 'var(--ml-bronze)', fontSize: 13 }}>{extra}</span>
-        ) : undefined
+        ) : extra
       }
       style={style}
-      bodyStyle={{ padding: 18, ...bodyStyle }}
-      {...rest}
+      styles={{ ...styles, body: { padding: 18, ...bodyStyle, ...(styles?.body || {}) } }}
+      {...cardProps}
     >
       {children}
     </Card>
