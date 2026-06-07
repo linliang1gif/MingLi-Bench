@@ -28,7 +28,7 @@ const sceneOptions = [
   { value: 'yinzhai_environment', label: '阴宅环境' },
   { value: 'tianxing_site', label: '天星现场方向' },
   { value: 'house_landscape', label: '房屋外局' },
-  { value: 'heritage_risk', label: '文保风险记录' },
+  { value: 'heritage_risk', label: '文保风险巡查' },
   { value: 'manual_target', label: '手动目标' },
 ];
 
@@ -37,6 +37,39 @@ const heritageRiskOptions = [
   { value: 'medium', label: '中：存在需核实线索' },
   { value: 'high', label: '高：建议保持现场并上报' },
   { value: 'unknown', label: '未评估' },
+];
+
+const patrolPriorityOptions = [
+  { value: 'routine', label: '常规巡查' },
+  { value: 'follow_up', label: '复核巡查' },
+  { value: 'urgent', label: '优先核验' },
+  { value: 'unknown', label: '未标注' },
+];
+
+const verificationStatusOptions = [
+  { value: 'pending', label: '待核验' },
+  { value: 'in_review', label: '核验中' },
+  { value: 'verified_non_heritage', label: '已核验：普通地貌/扰动' },
+  { value: 'reported', label: '已整理上报' },
+];
+
+const terrainAnomalyOptions = [
+  { value: 'none', label: '未见明显异常' },
+  { value: 'mound_like', label: '堆土/隆起样地貌' },
+  { value: 'cut_slope', label: '削坡/断面样地貌' },
+  { value: 'stone_like', label: '石构件样对象' },
+  { value: 'inscription_like', label: '文字刻痕样痕迹' },
+  { value: 'surface_object', label: '地表遗物样对象' },
+  { value: 'unknown', label: '待核验' },
+];
+
+const disturbanceTypeOptions = [
+  { value: 'none', label: '未见明显扰动' },
+  { value: 'construction', label: '施工扰动' },
+  { value: 'earthwork', label: '土方扰动' },
+  { value: 'erosion', label: '水土流失/塌陷' },
+  { value: 'recent_digging_like', label: '近期翻动样痕迹' },
+  { value: 'unknown', label: '待核验' },
 ];
 
 const directionOptions = [
@@ -55,6 +88,14 @@ function boolInitial(analysis, name) {
 
 function isHeritageScene(value) {
   return value === 'heritage_risk';
+}
+
+function buildSurveyGridCode(latitude, longitude) {
+  if (latitude == null || longitude == null || latitude === '' || longitude === '') return undefined;
+  const lat = Number(latitude);
+  const lng = Number(longitude);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return undefined;
+  return `GRID-${Math.round(lat * 100)}-${Math.round(lng * 100)}`;
 }
 
 export default function LandscapePhoto() {
@@ -169,6 +210,14 @@ export default function LandscapePhoto() {
         has_surface_artifact: boolInitial(analyzed.analysis, 'surface_artifact'),
         has_recent_disturbance: boolInitial(analyzed.analysis, 'recent_disturbance'),
         heritage_risk_level: values.scene_type === 'heritage_risk' ? 'unknown' : undefined,
+        survey_grid_code: values.scene_type === 'heritage_risk'
+          ? buildSurveyGridCode(values.latitude, values.longitude)
+          : undefined,
+        patrol_priority: values.scene_type === 'heritage_risk' ? 'unknown' : undefined,
+        verification_status: values.scene_type === 'heritage_risk' ? 'pending' : undefined,
+        terrain_anomaly_type: values.scene_type === 'heritage_risk' ? 'unknown' : undefined,
+        disturbance_type: values.scene_type === 'heritage_risk' ? 'unknown' : undefined,
+        evidence_note: '',
         protection_note: '',
         target_direction: analyzed.record?.direction_24,
         water_direction: undefined,
@@ -390,7 +439,7 @@ export default function LandscapePhoto() {
                   type="warning"
                   showIcon
                   message="未取得模型对象列表"
-                  description="视觉模型已响应，但没有返回可直接展示的 objects，系统已补充基础校正项。建议换用 qwen-vl-max-2025-01-25 或重新拍摄更清晰的图片。"
+                  description="视觉模型已响应，但没有返回可直接展示的 objects，系统已补充基础校正项。请按照片实际情况核对。"
                 />
               )}
               {!!analysis.possible_issues?.length && (
@@ -411,8 +460,8 @@ export default function LandscapePhoto() {
                 <Alert
                   type="warning"
                   showIcon
-                  message="仅做文保风险记录"
-                  description="识别结果只用于记录可见地貌、人工痕迹和扰动线索；不判断古墓位置或概率，不提供挖掘、探测或寻找路线。疑似信息需要专业人员现场核实。"
+                  message="仅做文保风险巡查"
+                  description="识别结果只用于记录巡查网格、可见地貌、人工痕迹和扰动线索；不判断古墓位置或概率，不提供入口、挖掘、探测或寻找路线。疑似信息需要专业人员现场核实。"
                 />
               )}
               {analysis.tianxing?.mapping && (
@@ -460,8 +509,8 @@ export default function LandscapePhoto() {
                 type="warning"
                 showIcon
                 style={{ margin: '4px 0 16px' }}
-                message="文保校正项"
-                description="以下字段只用于记录地貌与文保风险线索，不用于判断古墓位置、概率、入口或可挖掘点。"
+                message="文保巡查网格与线索核验"
+                description="以下字段用于巡查网格、地貌异常、扰动和上报材料整理，不用于判断古墓位置、概率、入口或可挖掘点。"
               />
               <Space wrap size={18} align="start">
                 <Form.Item name="has_artificial_mound" valuePropName="checked"><Checkbox>人工堆土/封土样地貌</Checkbox></Form.Item>
@@ -471,8 +520,26 @@ export default function LandscapePhoto() {
                 <Form.Item name="has_recent_disturbance" valuePropName="checked"><Checkbox>近期扰动痕迹</Checkbox></Form.Item>
               </Space>
               <Space wrap size={14} align="start">
+                <Form.Item name="survey_grid_code" label="巡查网格编号" style={{ width: 220 }}>
+                  <Input placeholder="例如：GRID-3123-12147" />
+                </Form.Item>
+                <Form.Item name="patrol_priority" label="巡查优先级" style={{ width: 180 }}>
+                  <Select options={patrolPriorityOptions} />
+                </Form.Item>
+                <Form.Item name="verification_status" label="核验状态" style={{ width: 220 }}>
+                  <Select options={verificationStatusOptions} />
+                </Form.Item>
                 <Form.Item name="heritage_risk_level" label="文保风险等级" style={{ width: 220 }}>
                   <Select options={heritageRiskOptions} />
+                </Form.Item>
+                <Form.Item name="terrain_anomaly_type" label="地貌异常类型" style={{ width: 220 }}>
+                  <Select options={terrainAnomalyOptions} />
+                </Form.Item>
+                <Form.Item name="disturbance_type" label="扰动类型" style={{ width: 220 }}>
+                  <Select options={disturbanceTypeOptions} />
+                </Form.Item>
+                <Form.Item name="evidence_note" label="线索证据备注" style={{ width: 520 }}>
+                  <Input.TextArea rows={2} placeholder="例如：仅记录照片可见现象；需专业人员现场核实，未触碰疑似对象。" />
                 </Form.Item>
                 <Form.Item name="protection_note" label="现场保护/上报备注" style={{ width: 520 }}>
                   <Input placeholder="例如：已保持现场，未触碰疑似对象；拟联系当地文物主管部门核实。" />

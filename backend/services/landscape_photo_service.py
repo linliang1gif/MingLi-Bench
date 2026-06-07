@@ -213,11 +213,23 @@ def analyze_photo(db: Session, record_id: int) -> Dict[str, Any]:
         analysis.setdefault("vision_model", result.get("model"))
         analysis.setdefault("boundary_note", _boundary_note_for_record(row))
         if not analysis.get("objects"):
-            analysis["vision_empty_objects"] = True
-            analysis["note"] = (
-                f"视觉模型已调用成功（{result.get('provider') or 'llm'}），但未返回可展示对象；"
-                "请按照片实际情况在校正表单中补充。"
+            inferred_objects = landscape_photo_rules.infer_objects_from_text(
+                analysis.get("vision_raw_text") or analysis.get("note") or analysis.get("summary") or analysis.get("description"),
+                row.scene_type,
             )
+            if inferred_objects:
+                analysis["objects"] = inferred_objects
+            analysis["vision_empty_objects"] = True
+            if inferred_objects:
+                analysis["note"] = (
+                    f"视觉模型已调用成功（{result.get('provider') or 'llm'}），但未返回标准 objects；"
+                    "系统已根据模型文本补充可校正对象，请按照片实际情况核对。"
+                )
+            else:
+                analysis["note"] = (
+                    f"视觉模型已调用成功（{result.get('provider') or 'llm'}），但未返回可展示对象；"
+                    "请按照片实际情况在校正表单中补充。"
+                )
     else:
         analysis = landscape_photo_rules.mock_analysis(row.scene_type, row.target_label)
         analysis["llm_error"] = result.get("error")

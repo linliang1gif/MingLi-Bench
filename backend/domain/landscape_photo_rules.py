@@ -199,11 +199,11 @@ def required_sections_for_scene(scene_type: str | None) -> List[str]:
             "结论",
             "拍照场景",
             "地貌要素",
-            "人工痕迹",
+            "风险线索与人工核验项",
             "文保风险等级",
             "不确定性说明",
             "禁止事项",
-            "建议处理方式",
+            "巡查核验建议",
             "上报信息整理",
         ]
     return [
@@ -309,6 +309,12 @@ def summarize_correction(correction: Dict[str, Any] | None) -> str:
         ("road_direction", "道路方向"),
         ("tianxing_mountain", "天星/二十四山校正"),
         ("heritage_risk_level", "文保风险等级"),
+        ("survey_grid_code", "巡查网格编号"),
+        ("patrol_priority", "巡查优先级"),
+        ("verification_status", "核验状态"),
+        ("terrain_anomaly_type", "地貌异常类型"),
+        ("disturbance_type", "扰动类型"),
+        ("evidence_note", "线索证据备注"),
         ("protection_note", "现场保护/上报备注"),
     ]:
         if correction.get(key):
@@ -363,6 +369,16 @@ def summarize_heritage_elements(analysis: Dict[str, Any] | None, correction: Dic
             parts.append(f"- {label}：{'有' if correction.get(key) else '未确认'}")
     risk_level = correction.get("heritage_risk_level") or "未评估"
     parts.append(f"- 用户标注文保风险等级：{risk_level}")
+    for key, label in [
+        ("survey_grid_code", "巡查网格编号"),
+        ("patrol_priority", "巡查优先级"),
+        ("verification_status", "核验状态"),
+        ("terrain_anomaly_type", "地貌异常类型"),
+        ("disturbance_type", "扰动类型"),
+        ("evidence_note", "线索证据备注"),
+    ]:
+        if correction.get(key):
+            parts.append(f"- {label}：{correction[key]}")
     if correction.get("protection_note"):
         parts.append(f"- 现场保护/上报备注：{correction['protection_note']}")
     return "\n".join(parts)
@@ -506,6 +522,44 @@ def _safe_heritage_objects(objects: Any) -> List[Dict[str, Any]]:
     return safe_objects
 
 
+def infer_objects_from_text(text: Any, scene_type: str | None) -> List[Dict[str, Any]]:
+    """Convert a model's plain-language scene note into editable object hints."""
+    if not isinstance(text, str) or not text.strip():
+        return []
+    source = text.lower()
+    is_heritage = is_heritage_scene(scene_type)
+    allowed_names = HERITAGE_ALLOWED_OBJECT_NAMES if is_heritage else LANDSCAPE_ALLOWED_OBJECT_NAMES
+    hints = [
+        (("山丘", "山体", "山脉", "山势", "山坡", "丘陵", "高地", "hill", "mountain", "slope"), "mountain", "山体/高处", "background", 0.46),
+        (("坡面", "斜坡", "坡地", "slope"), "slope", "坡地/地貌起伏", "center", 0.44),
+        (("田野", "农田", "草地", "绿地", "植被", "field", "farmland", "grassland", "grass"), "field", "田野/草地", "center", 0.44),
+        (("树", "树林", "树木", "tree", "vegetation"), "tree", "树木/植被", "side", 0.42),
+        (("水体", "河", "湖", "池塘", "溪", "water", "river", "lake", "pond"), "water", "水体", "unknown", 0.42),
+        (("道路", "小路", "路面", "road", "path"), "road", "道路/路径", "unknown", 0.42),
+        (("建筑", "房屋", "屋顶", "building", "house"), "building", "建筑", "unknown", 0.42),
+        (("石构件", "石块", "石刻", "碑", "stone"), "stone_object", "石构件/石刻样对象", "unknown", 0.38),
+        (("文字刻痕", "铭文", "刻字", "inscription"), "inscription", "文字刻痕/铭文样痕迹", "unknown", 0.36),
+        (("扰动", "翻动", "施工", "土方", "disturbance", "earthwork"), "recent_disturbance", "近期扰动痕迹", "unknown", 0.36),
+    ]
+    objects: List[Dict[str, Any]] = []
+    seen = set()
+    for keywords, name, label, position, confidence in hints:
+        if name not in allowed_names or name in seen:
+            continue
+        if any(keyword in source for keyword in keywords):
+            objects.append(
+                {
+                    "name": name,
+                    "label": label,
+                    "position": position,
+                    "confidence": confidence,
+                    "needs_user_verify": True,
+                }
+            )
+            seen.add(name)
+    return objects[:6]
+
+
 def sanitize_heritage_analysis(analysis: Dict[str, Any] | None) -> Dict[str, Any]:
     source = analysis or {}
     objects = _safe_heritage_objects(source.get("objects") if isinstance(source, dict) else None)
@@ -611,40 +665,49 @@ def heritage_fallback_markdown(
     correction_text = summarize_correction(correction)
     heritage_elements = summarize_heritage_elements(analysis, correction)
     risk_level = (correction or {}).get("heritage_risk_level") or "未评估"
+    survey_grid_code = (correction or {}).get("survey_grid_code") or "未填写"
+    patrol_priority = (correction or {}).get("patrol_priority") or "未标注"
+    verification_status = (correction or {}).get("verification_status") or "待核验"
+    terrain_anomaly_type = (correction or {}).get("terrain_anomaly_type") or "未标注"
+    disturbance_type = (correction or {}).get("disturbance_type") or "未标注"
+    evidence_note = (correction or {}).get("evidence_note") or "未填写"
     protection_note = (correction or {}).get("protection_note") or "未填写"
     ref_titles = summarize_references(references)
 
     return f"""### 1. 结论
-本报告基于「{house_name}」的现场照片、识别结果与用户校正信息生成，场景为 **{scene}**，目标为 **{target}**。本报告仅用于文物保护风险记录和环境信息整理，不用于寻找、定位、挖掘、交易或破坏古墓葬及文物。照片只能反映局部视角，所有不确定信息均需要专业人员现场核实。
+本报告基于「{house_name}」的现场照片、识别结果与用户校正信息生成，场景为 **{scene}**，目标为 **{target}**。本报告用于文保巡查网格、风险线索核验和环境信息整理，不用于寻找、定位、挖掘、交易或破坏古墓葬及文物。照片只能反映局部视角，所有不确定信息均需要专业人员现场核实。
 
 ### 2. 拍照场景
 - 场景类型：{scene}
 - 目标名称：{target}
 - 现场坐标：{location_text}
 - 地点备注：{record.get('location_note') or '未填写'}
+- 巡查网格编号：{survey_grid_code}
+- 巡查优先级：{patrol_priority}
+- 核验状态：{verification_status}
 - 图片路径：{record.get('image_path')}
 
 ### 3. 地貌要素
 {objects}
 
-### 4. 人工痕迹
+### 4. 风险线索与人工核验项
 {heritage_elements}
 
 ### 5. 文保风险等级
-用户标注风险等级：**{risk_level}**。该等级仅为资料整理标签，不代表古墓或文物存在概率，不构成专业鉴定结论。
+用户标注文保风险等级：**{risk_level}**。巡查优先级为 **{patrol_priority}**。该等级仅为文保巡查和线索核验标签，不代表古墓或文物存在概率，不构成专业鉴定结论。
 
 ### 6. 不确定性说明
-- 图片识别和人工校正只能记录可见地貌、石构件样对象、文字刻痕样痕迹、地表遗物样对象或近期扰动痕迹。
+- 图片识别和人工校正只能记录可见地貌、地貌异常类型、扰动类型、石构件样对象、文字刻痕样痕迹、地表遗物样对象或近期扰动痕迹。
 - 不输出古墓定位结论，不输出古墓概率，不推测墓道、墓室、入口或地下结构。
 - 所有疑似信息均需要专业人员现场核实。
 
 ### 7. 禁止事项
 {chr(10).join(f"- {item}" for item in HERITAGE_FORBIDDEN_ITEMS)}
 
-### 8. 建议处理方式
+### 8. 巡查核验建议
 - 如发现疑似文物或古墓葬痕迹，请保持现场，不要扰动，并联系当地文物主管部门。
 - 不捡拾、不移动、不清洗疑似遗物，不进行挖掘、探测或交易。
-- 可整理照片、拍摄时间、公开可描述的周边环境、可见扰动情况和保护备注，供主管部门或专业人员判断。
+- 可整理照片、拍摄时间、巡查网格编号、公开可描述的周边环境、可见扰动情况和保护备注，供主管部门或专业人员核验。
 
 ### 9. 上报信息整理
 - 关联对象：{house_name}
@@ -652,6 +715,12 @@ def heritage_fallback_markdown(
 - 目标备注：{target}
 - 现场坐标：{location_text}
 - 地点备注：{record.get('location_note') or '未填写'}
+- 巡查网格编号：{survey_grid_code}
+- 巡查优先级：{patrol_priority}
+- 核验状态：{verification_status}
+- 地貌异常类型：{terrain_anomaly_type}
+- 扰动类型：{disturbance_type}
+- 线索证据备注：{evidence_note}
 - 文保风险等级：{risk_level}
 - 现场保护/上报备注：{protection_note}
 - 参考来源：{ref_titles}
